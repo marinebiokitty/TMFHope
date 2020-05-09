@@ -1,0 +1,2 @@
+LaTeX/Game_path.cls.tex
+LaTeX/Game_path.cls
