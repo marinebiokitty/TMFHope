@@ -65,9 +65,10 @@
 %% as the \MYhp field, that defaults to 5.
 \PRESETS{Char}{
   \FD\MYdesc	{} %% badge description
-
+	\newstat\MYpronouns	{Pronouns}{P}{They/Them} %% for pronouns
   \newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
-  %\newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
+	\newstat\Myalpha {$\alpha$}{$\alpha$}{0}
+	%\newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
 
   \FD\MYsex	{\male} %% \male, \female, \neuter, \ambiguous
   \FD\MYrole	{} %% playerlist role
@@ -194,6 +195,7 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{a test}
   \MYsex	{\male}
+	\MYpronouns {He/Him}
   \s\MYplayer	{Test Player}
   
   \s\MYblues	{\bTest{}}
@@ -214,8 +216,11 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Captain}
   \MYsex	{\male}
+	\MYpronouns {He/Him}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
+	\s\Myalpha {1}
   \s\MYcr{2}
 }
 
@@ -227,6 +232,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -238,6 +244,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -249,6 +256,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -260,6 +268,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -282,6 +291,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -293,6 +303,7 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
+	\s\MYblues	{\bHistory{}\bHope{}}
   \s\MYcr{2}
 }
 
@@ -304,7 +315,9 @@
   \MYsex	{\male}
   \s\MYplayer	{Test Player}
   
-  \s\MYcr{2}
+	\s\MYblues	{\bHistory{}\bHope{}}
+  \s\Myalpha{1}
+	\s\MYcr{2}
 }
 
 %%%%%%%NPCs%%%%%%%%%%%%%%%%%%%%
