@@ -1,72 +1,10 @@
 %%%%%
 %%
-%% This is intended as a nearly complete rules and scenario document
-%% that you, the GM, change and complete for your game.  Various
-%% comments suggest what parts can be removed or changed based on
-%% common game variants.  For example, you will not need the rule for
-%% player rooms if your gamespace is not open or otherwise doesn't
-%% include living spaces.  Some possibly useful sentences/paragraphs
-%% are simply commented out.
-%%
-%% Feel free to ignore these comments and just write what you want.
-%%
-%%
-%%
-%% These rules are merely an example ruleset.  Nothing in them is
-%% sacred or even established by consensus.  They do not prescribe a
-%% standard.  As a GM, you can change, remove, or rewrite whatever is
-%% necessary to fit your game design.
-%%
-%% However, much of the material presented here, especially in the
-%% Getting Started and Items Etc. sections, may be taken for granted
-%% by many players.  This has two major implications:
-%%
-%% 1) Because of gradual shifts, longstanding biases, and first
-%% impressions, different players (and GMs!) may have very different
-%% assumptions about some details.  Do not brush off the sections that
-%% "everyone knows."  Make sure everyone pays attention to the rules
-%% as a whole.
-%%
-%% 2) If you have a clever idea to change some detail in the
-%% fundamental parts of the rules, make sure to draw attention to it.
-%% For example, if you modify the item bulkiness rules, don't just
-%% gloss over your changes in the middle of a paragraph.
-%%
-%% You may want a section at the end as a reference to any fundamental
-%% changes.  See "New Rule Summary" at the end.
-%%
-%%
-%%
-%% The martial combat system (and related health states and ranged
-%% combat system) in this doc is known as "darkwater," named after The
-%% Pirates of Darkwater, for which the first version was written.  It
-%% is included as an example combat system.
-%%
-%%
-%%
-%% Basic guidelines for rules-writing:
-%%
-%% Use simple, concise, and precise language.  Avoid colloquialisms
-%% and speech mannerisms.  Write in the second person.  Use the
-%% imperative voice when possible.  Write like you are writing
-%% directions.
-%%
-%% When you change contexts, like going from writing to the attacker
-%% to writing to the defender, at least change paragraphs.
-%%
-%% When first introducing a major term and/or abbreviation, use bold
-%% text.  Try to define terms before you use them.  Combined with
-%% section/subsection/paragraph headings, this will make the rules
-%% easier to skim for reference.  First establish context, then go
-%% into detail.
-%%
-%% Be thorough, but do not ramble.  Try to make the spirit of the
-%% rules clear in addition to the letter.  If the spirit is hard to
-%% relay, then the rule may be too complicated.
-%%
 %%%%%
 
 \documentclass[sheet]{TMFHope}
+
+\usepackage{hyperref}
 
 %% document-wide tweaks
 \interlinepenalty10000
@@ -89,24 +27,19 @@
 \vfill\vfill
 
 %% player side of the GM/player contract
-The following are the rules for {\em\gamename}, a real-time, discord-based roleplaying game sponsored by the Luminary Roleplay Society.
+The following are the rules for {\em\gamename}, a real-time, discord-based, roleplaying game sponsored by the Luminary Roleplay Society.
 
 You are responsible for knowing and following these rules. It is through the constraints created by these rules and the game mechanics that interesting character to character interactions are made possible. Many of these rules are nigh-impossible to enforce and rely upon the honor system.  Do not cheat.  Do not abuse loopholes.  Play fair.  Be your own harshest critic. To do otherwise will cheat both yourself and your fellow players out of the intended experience.
 
 \vfill
 
 %% GM side of the GM/player contract
-The {\bf gamemasters} ({\bf GMs}) run the game.  If you have any problems or questions concerning the game, contact a GM.  The GMs are available before game to clarify any questions you may have about the rules and game. Th GMs will also be available during game, but the more time and atention you put toward understanding the rules and mechanics ahead of time, the less overwhelmed you might feel, and the more you are likely to enjoy the game.  Rulings th GMs make are final.  They may violate the letter of the rules to preserve the spirit.  The GMs promise to be as fair and reasonable as possible. Neither they nor these rules are perfect.
+The {\bf gamemasters} ({\bf GMs}) run the game.  If you have any problems or questions concerning the game, contact a GM.  The GMs are available before game to clarify any questions you may have about the rules and game. Th GMs will also be available during game, but the more time and atention you put toward understanding the rules and mechanics ahead of time, the less overwhelmed you will likely feel, and the more you are likely to enjoy the game.  Rulings th GMs make are final.  They may violate the letter of the rules to preserve the spirit.  The GMs promise to be as fair and reasonable as possible. Neither they nor these rules are perfect, so we ask for your understanding and flexibility.
 
 \vfill
 
 %% have fun
-This game is intended to be fun.  Getting into character, roleplaying, being dramatic, and competing in character can all increase the fun of the game.  Do not take the game too seriously.  Even if you are losing, keep a good attitude.  When the game is over, the real winners are the players with the best stories.
-
-\vfill
-
-%% be safe
-This is only a game.  Everyone involved should act with courtesy, sportsmanship, patience, and taste.  The GMs may expel anyone they believe to be violating the spirit of the rules or the game.  Emotions may run high.  If you think things are crossing the line from game to reality too much, or if you are just getting too stressed, feel free to disconnect and take a quick break.  Stay in control.  Use common sense.  Always, play safely, then play to have fun.
+This game is intended to be fun.  Getting into character, roleplaying, being dramatic, and competing in character can all increase the fun of the game.  Do not take the game too seriously though.  Even if your character is ``losing'', keep a good attitude as a player.  When the game is over, the real winners are the players with the best stories.
 
 \vfill
 
@@ -114,10 +47,12 @@ This is only a game.  Everyone involved should act with courtesy, sportsmanship,
 %% author list auto-generated from Lists/gm-LIST.tex
 This game is a work of fiction.  Although it may refer to things in the real world, it does so only for the sake of the scenario.  It does not represent the opinions of the GMs or the author. These rules are modifications of those used in previous games.  This game and all materials thereof are copyright 2020 by Acata Felton and Olivia Montoya.
 
+Thanks is due to Olivia Montoya for writing the Discord Bot that makes this game possible. ``TMF Hope'' is written by Acata Felton (she/her; char.felton@gmail.com) and Olivia Montoya. Please ask for permission before running the game, but also please do take the game and run it for your friends! Playtesting was enabled by the Luminary Roleplay Society, a San Francisco Bay Area 501(c)(3) non-profit that promotes LARPing in the Bay area and at conventions across the United States. If you would like to donate to the upkeep of the discord bot, <INSERT>. If you would like to donate to ongoing LRS activities, you can donate here: \href{https://www.luminaryroleplaysociety.com/donations/}{https://www.luminaryroleplaysociety.com/donations/}. The recommended donation is \$5 to one or the other, or both, source(s).
+
 \vfill\vfill
 
 \begin{center}\bf
-  BROUGHT TO YOU BY THE LUMINARY ROLELP;AY SOCIETY
+  BROUGHT TO YOU BY THE LUMINARY ROLEPLAY SOCIETY
 \end{center}
 
 \vfill
@@ -135,17 +70,24 @@ This game is a work of fiction.  Although it may refer to things in the real wor
 \parskip5pt
 
 
-\section{Scenario}
+\section{Introduction and Logistics}
 
-The TMF Hope is a standard freight ship running cargo between planets. There’s no reason something should have gone wrong with their last standard hyper-jump. But apparently something did, because now the ship seems to be caught between several dimensions, and the ship is being pulled apart. If you could all just work together, I’m sure you could fix this…
+\subsection{Scenario}
+\emph{The TMF Hope is a standard freight ship running cargo between planets. There’s no reason something should have gone wrong with their last standard hyper-jump. But apparently something did, because now the ship seems to be caught between several dimensions, and the ship is being pulled apart. If you could all just work together, I’m sure you could fix this…}
 
-\paragraph{Game Times:} Game runs from {\bf 12:00 pm - 4 pm (PST)} on {\bf Saturday, Jan 30th}. Players are expected to log on to the``TMF Hope'' Discord server and connect to the ``OOC Channel'' Voice channel at that time.  Surviving PCs are expected to be in-game on the server for the entirety.  Game may end early.  Wrapup will immediately follow the end of game. {\bf If you encounter technical difficulties, please CALL the GMs and let us know. Acata: 650-690-5628.}  
+This game focuses on the \pNew{}, a civilian vessel in a near future sci-fi world where long distance space travel is accomplished via “jumps” though hyperspace. The game begins with the ship stuck somehow, in the middle of one such jump. Such a phenomenon is unknown to modern science, and the crew must race against the clock to reverse whatever happened and save the ship and themselves. In this liminal space, communication and access are limited by the ship and crew having been split into several “dimensions” and their overlapping spaces.
 
-\paragraph{Game Spaces:} This game is hosted on a Discord server. You should have received an invite to the server along with your casting. If you did not, please get in touch with us as soon as possible.
+\subsection{Logistics}
 
-The discord server contains an OOC category, with several OOC channels for pre and post game chatter. This is all you will be able to see when you first join. Once you join the server and the GM assigns you your role, you will be able to see the game spaces available to your character. You will see 1 ``Private Channel'' matching your character role, and 2 of the ship spaces (comprised of 1 text channel and 1 voice channel, grouped together and named the same).
+This game is played in a Discord Server. Players will interact with each other (in character) over voice channels that represent rooms on the ship. They will interact with the environment through associated text channels. Moving from one space to another requires switching both text and voice channels.
 
-The full list of game spaces that comprise the \pNew{} (You will only ever have access to 2 game spaces at a time.)
+\paragraph{Game Times:} Game runs from {\bf 12:00 pm - 4 pm (PST)} on {\bf Saturday, Jan 30th}. Players are expected to log on to the``TMF Hope'' Discord server and connect to the ``OOC Channel'' voice channel at that time.  Surviving PCs are expected to be in-game on the server for the entirety.  Game may end early.  Wrapup will immediately follow the end of game. {\bf If you encounter technical difficulties, please CALL the GMs and let us know. Acata: 650-690-5628.}  
+
+\paragraph{Game Spaces:} This game is hosted on a Discord server. You should have received an invite to the server along with your casting. If you did not, please get in touch with us as soon as possible. You will need both the ability to type in the text channels, and connect to the voice channels. Video is entirely optional and this game will not suffer from some or all players using voice only.
+
+The Discord server contains an OOC category, with several OOC channels for pre and post game chatter. There is also an ``announcements'' channel, that will be used by the GMs before and {\bf during} game to make game-wide annoucements. This is all you will be able to see when you first join. Once you join the server and the GM assigns you your role, you will be able to see the game spaces accessible to your character. You will see 1``Private Channel'' matching your character role, and 2 of the ship spaces (comprised of 1 text channel and 1 voice channel, grouped together and named the same).
+
+The full list of game spaces that comprise the \pNew{} (You will only ever have access to 2 game spaces at a time, in addition to your private channel.)
 {\bf Primary Dimensions}
 \begin{itemize}
   \item The Bridge (Yellow)
@@ -164,407 +106,168 @@ The full list of game spaces that comprise the \pNew{} (You will only ever have 
 %
 
 \clearpage
-\section{Getting Started}
+\section{Game Style}
+\subsection{Secrets and Powers}
+This game is Secrets and Powers style, inspired by such games as \emph{Krazny Octobyr} and \emph{The HMS Dauntless} from the MIT Assassin’s Guild, and \emph{The Neptune Ball} and \emph{Conflux} from the Stanford Gaming Society. This type of game often includes multiple mutually exclusive goals, that lead to character vs character conflict. This game does not rely on player to player negotiation to generate and resolve plots. Instead, the pre-written characters are already enmeshed in a web of plots with potential resolutions that characters are negotiating for. Players will get the most out of the game by embracing their character, playing to discover the world created by the game writers, and reacting in character to new revelations from other PCs. 
 
-%% Character packets come first, since they are the tangible things
-%% handed to players.  Also a convenient place to define Player
-%% Character.
-\subsection{Character Information}
+This game style relies on the players understanding that they may not come out of this game having accomplished everything their character wanted. This is not the same thing as ``play to win.'' While characters are often playing to win, players should look to the best stories, and embrace the most narratively impactful moment to have their character back down, admit a failure, spill a secret, or change their mind about something, all with confidence that other characters are primed to care deeply about it. You may also find another character revealing your secret without any input on your part, giving you the opportunity to react to that, without having had to engineer the reveal yourself. This allows players to lean in to characters who want to keep a secret hidden.
 
-Information on your your part as a {\bf player-character} ({\bf PC}) and the world they live in will be presented in a series of documents. You must read all the contents of these documents before game. We recommend you them handy during the game.  If you are missing something or find something which doesn't seem to belong to you, tell one of the GMs.  Character packets are confidential. 
+This game also contains significant interactions between PCs and the environment. These interactions are regulated through predefined mechanics that allow players to interact with elements of the environment without waiting for a GM to narrate something or make a ruling. This generally leads to less sitting around waiting out of character, and more time playing and interacting in character. Do not invent items or solutions to a problem that already has a mechanic. If a door says it needs a key to open, you cannot declare that you beat the door down, nor can you claim to have the key if you don't actually have the key item.  If there is no mechanic, plots should be resolved via {\bf in character} discussion (aka: roleplaying).
 
-Your Character Packet would normally contain:
-%% other things your game uses, like money, should be described below
+{\bf Players are more important than the game}. In ``\pNew{},'' this adage must be applied starting well before the game, not just in response to someone getting activated. We must be as preemptive as we can. Secrets and Powers games are fragile. While they can survive a character not being present, the game is significantly the poorer for it. This is due to the design concept that any character the game could run without is insufficiently important and relevant and should either be cut before casting, or rewritten to be more integral. This makes it way less likely that a player will be bored or feel left out, but it does pose an important consideration for self care.
 
-%% no character names on badges, yes to character descriptions
-\paragraph{Name-Badge:} A name-badge with your player name, character
-description, and {\bf badge number} on it shows that you are in the
-game; wear it visibly while you are playing.  It represents your
-character's body in-game.  Badge numbers are not in-game information.
-See the {\em Character Bodies} and {\em Badge Numbers} sections for
-more details.
+\subsection{Calibration and Safety Mechanics}
+Calibration is handled primarily through casting. Since players are expected to play to the pre-written character they are given, players can be confident that the provided content warnings for game are pretty comprehensive.  In order for the GM to cast players well, players must be as honest as they can be when filling out the casting survey. It is possible that ultimately the player and GM determine that this game is not a good fit for a particular player. That’s okay.
 
-\paragraph{Character Sheet:} Your character sheet describes who you
-are and what you are up to.  It contains a list of everything else
-that should be in your character packet.  Do not show or read your
-character sheet to other players.
+In order to  balance the needs of the game and other players with self-care needs, players are strongly encouraged to the following:
+\begin{itemize}
+  \item Reflect on the game scenario and the listed content warnings (see below) before applying. If you have reasons to believe you’ll be activated by game content, consider skipping this game. It’s okay not to play.
+  \item Reflect on your emotional reserves right now, and what actions you can take to prepare care for yourself before game to boost your resiliency (i.e.: making sure you get a full night's sleep before game). Consider what preparations you can make for self care after game to replenish (i.e.: ordering your favorite food, or having a stuffed animal nearby for snuggles). This is helpful in case you get unexpectedly activated.
+  \item Reflect on the safety mechanics for this game and how you can use them to protect yourself and create space to check in with yourself.
+If you need to, leave the game. The door is always open, and if it’s what you need to take care of yourself, do it. But if a less nuclear option feels accessible, we encourage you to try it  first.
+\end{itemize}
 
-\paragraph{Bluesheets:} A bluesheet describes information common to
-members of a group.  When in conflict, character sheet information
-overrides bluesheet information.  Do not show or read a bluesheet to
-other players.
+We will be using the following safety mechanics in game:
+\begin{itemize}
+  \item ``Brake'' (from ``Cut and Brake'')  - Use this to re-calibate the auditory experience of an interaction for a player’s comfort. I.e.: Ask a player to speak more quietly, even though their character is still yelling. This is not a negotiation - the person being asked to ``brake'' should immediately comply for the comfort and safety of their fellow players. Example: 	\ast Fist on Head in OOC gesture 	\ast. ``Hey Bob, brake. Can you not shout please?''
+  \item ``Time Out/Time In'' - Use this to step away from game for up to about 5 minutes. Call ``Time Out,'' then drop off of the voice channels, and set yourself to ``invisible'' in Discord. Then take whatever other actions you need to distance yourself from game for a bit (i.e: Standing up and stretching, going into another room, etc). Use this to recenter on your needs and experiences and evaluate if you need to make any changes to how you play or are interacting, or need to ask others to do so. Please try to use ``time out'' before ``open door''. If someone calls ``Time Out'' around you; leave them alone. Let them disengage without further fanfare. Return to game by saying ``Time In''
+  \item ``Open Door'' - If you need to leave the game and not return, either for self care or emergency reasons, please do so. If possible, let a GM know so we don't worry about you and try to reach you if you just want to be alone or need to deal with something else.
+\end{itemize}
 
-\paragraph{Greensheets:} A greensheet describes and expands abilities,
-mechanics, or in-game knowledge.  Do not show or read a greensheet to
-other players.
+This is only a game.  Everyone involved should act with courtesy, sportsmanship, patience, and taste.  The GMs may expel anyone they believe to be violating the spirit of the rules or the game.  Emotions may run high.  If you think things are crossing the line from game to reality too much, or if you are just getting too stressed, feel free to disconnect and take a quick break.  Stay in control.  Use common sense.  Always, play safely, then play to have fun.
 
-\paragraph{Stat Card:} Your stat card lists your statistics.  You
-might not know what all of your stats mean.  Do not show your stats to
-others.  The reverse side is a {\bf death report}; fill it out and
-give it to the GMs when your character dies.
+This is a game.  Real violence is unacceptable. Game action should cause no real-world damage, either to people or property.  If something dangerous is happening, call a halt.  Stay in control, use common sense, and do not endanger yourself or others.
 
-\paragraph{Ability Cards:} An ability card explains a special ability
-your character has.  The front side describes the effects; show it to
-players when you use the ability.  The reverse is the rules of use and
-must not be shown to other players.
+\subsection{The Casting Process}
+The GMs have done their best to cast you to a pre-written character that you will enjoy, but it is not always possible to give everyone exactly the character they had in mind - it might not exist. If you receive your character and find that there is something that you absolutely can't play, please let us know as soon as possible. We can recast that character to someone on the wait-list. If you get a character that isn't what you expected, we encourage you to try it out - you never know, you might find it a new favorite. 
 
-\paragraph{Memory/Event Packets:} A memory packet is an envelope or
-stapled piece of paper with a {\bf trigger} which describes when to
-open and read it.  If the trigger is a number, open the packet when
-you see something with that number.  If it's a quoted phrase, open
-when you hear or read it in-game.  If it's a symbol, open when
-instructed.  Do not take game action based on an unopened trigger.  Do
-not show or read a memory packet to other players.
+In any case, we encourage you to reflect on your casting app after the fact, and see whether there are things you want to add, remove, or change in future apps for other games. You GMs can only cast as well as you let them; they only know what you tell them.
 
-\paragraph{Items:} In-game items may be transferred from character to
-character, and should be marked as such.  See the {\em Items Etc.}
-section for more details.
+\subsection{Content Warnings}
+The following content warning applies to all of game. We recommend you skip this game if you don’t want to play a game containing these things.
+\begin{enumerate}
+  \item Potential for character death
+  \item Risk to health and safety
+\end{enumreate}
+
+The following content warnings apply to parts of game. It is possible for GMs to cast you in roles away from these topics if you include it in your application that you wish to avoid the topic. (warning: If you need to avoid {\bf all} of these things, this may not be the game for you):
+\begin{itemize}
+  \item Ex-millitary
+  \item Dishonorable discharge
+  \item Decisions around life and death for others
+  \item Romance
+  \item Strong animosity with another character
+  \item PTSD from service in combat / interacting with someone with PTSD
+  \item Abelism
+  \item Ageism
+\end{itemize}
+
+For the safety and comfort of players and GMs for this game, it is also important that you {\bf do not add} any potentially activating or triggering material to game. Once you get your character, please stay within the bounds outlined by that sheet and the game content in general. Do not invent edgelord backstory elements, or introduce new plot points. In fact, we generally discourage you from inventing new content that isn't suggested in your character sheet. This is important for the integrity of game. If you invent something new and abandon content written for the character, you leave the other characters involved in that content out in the cold. This is also cruicial for the safety of your fellow players since they didn’t get a chance to opt into or out of the new content.
+
+\clearpage
+\section{Character Packets}
+
+Information on your your part as a {\bf player-character} ({\bf PC}) and the world they live in will be presented in a series of documents called your ``character packet''. The term comes from in person games where the character information would be printed out and handed to you in a manila envelope - a literal packet. You are expected to be familiar with the contents of your character packet before game. We recommend you keep the various documents handy during the game, possibly on a second screen, or printed out.  If you are missing something or find you've been given something which doesn't seem to belong to you, tell one of the GMs.  Character packets are confidential; please do not share any information you got on these documents with anyone else - in or out of character. You may think two characters should know the same things, but you may inadvertently ruin a major surprise for them.
+
+Your Character Packet should contain:
+
+\paragraph{Character Sheet:} Your character sheet describes who you are and what you are up to.  It contains a list of everything else that should be in your character packet, along with a list of any items, stats, abilities and memory or event triggers (see below) you start with. Do not show or read your character sheet to other players.
+
+\paragraph{Bluesheets:} A bluesheet describes information common to members of a group.  When in conflict, character sheet information overrides bluesheet information.  Do not show or read a bluesheet to other players. (These are called ``bluesheets'' because they would traditionally be printed on blue paper.)
+
+\paragraph{Greensheets:} A greensheet describes and expands abilities, mechanics, or in-game knowledge.  Do not show or read a greensheet to other players. (These are called ``greensheets'' because they would traditionally be printed on green paper.)
+
+\subsection{Discord-based Character Information}
+\paragraph{Abilities:} Some characters have abilities that represent small mechanics. There is  a list of any abilities you have on your character sheet. You will use text-based commands in the Discord server to use your abilities (see below for discord commands).
+
+\paragraph{Memory/Event Trigers:} A memory/event trigger represents your character remembering, or learning something, or something happening to your character. You will have a list of any such starting triggers on your character sheet, but no other information. When something or someone tells you to ``open your <Insert trigger> packet'', you will go to your private channel, and use the bot command `?Trigger <Trigger>'' I.E.: ``?Trigger Alpha''. 
+
+Some memory packets will give you just a piece of information, suggest something, or change a stat. Others may provie information along a line of investigation and proide a new trigger for when the next task is complete. (These replace research notebooks.) Do not take game action based on an unopened trigger.  Do not show or read a memory packet to other players.
+
+\paragraph{Items:} In-game items may be transferred from character to character, as long as the two characters are in the same game space (text channel and voice channel). Some characters start with one or more items in their posession. Some items are {\bf bulky} this means that you must dedicate that many hands to carrying it. Items can have a bulkiness of 0 (not bulky), 1, or 2. Unless you know otherwise (aka: you have a mechanic that says so), you can never carry more than 2 bulkiness-worth of items as you only have 2 hands. If you need 3 bulkiness worth of items to accomplish something, you will need someone else to help you by carrying the 3rd item.
+
+\paragraph{Discord Pinned Message:} In your private channel, you will find a series of pinned messages, with your abilities, starting memory/event triggers, and stats. These give you easy reference to them during game. Your items are not included in this list as they are transerable and no such list would stay accurate for very long.
 
 
 \clearpage
 %% Some Assassin Game fundamentals
 \subsection{Reality and Game Reality}
 
-There is a big difference between reality and game reality.  Players
-must treat each other with courtesy and explain to each other what
-their characters perceive in confusing situations; e.g.\ ``My
-character's hands are covered in blood,'' an {\bf out-of-game}
-statement.  Characters are under no such restrictions, and may do what
-it takes to further their goals; e.g.\ ``Uh, hi Bob.  Just got back
-from the butcher shop,'' an {\bf in-game} statement.
+There is a big difference between reality and game reality.  Players must treat each other with courtesy and explain to each other what their characters perceive in confusing situations; e.g.\ ``My character's hands are covered in blood,'' an {\bf out-of-game} statement.  Characters are under no such restrictions, and may do what it takes to further their goals; e.g.\ ``Uh, hi Bob.  Just got back from the butcher shop,'' an {\bf in-game} statement.
 
-{\bf Metagaming} is inferring in-game knowledge that is inappropriate
-for your character from out-of-game information.  Do your best to not
-metagame and especially to prevent the risk of metagaming.  Be your
-own harshest critic.
+{\bf Metagaming} is inferring in-game knowledge that is inappropriate for your character from out-of-game information.  Do your best to not metagame and especially to prevent the risk of metagaming. Be your own harshest critic.
 
-\paragraph{Halts:} A halt pauses game action.  To call one, say ``game
-halt'' in a clear and audible voice; other players around a corner
-should hear you, but you shouldn't scare some poor grad student.  End
-a halt by saying ``three, two, one, resume.''  Call a halt for one of
-only three reasons: because a rule instructs you to, for safety and
-similar out-of-game issues (see Non-players section below), or to pause game and fetch a GM (which you
-should normally avoid doing).
+\paragraph{Halts:} A halt pauses game action.  To call one, say ``game halt'' in a clear and audible voice; all players in your voice channel should hear you. End a halt by saying ``three, two, one, resume.''  Call a halt for one of only three reasons: because a rule instructs you to, for safety and similar out-of-game issues (see Non-players section below), or to pause game and wait for a GM (which you should normally not need to do, but a few mechanics may tell you to ``@ the GM role'' aka type ``@GM: <Message>'' into the text channel).
 
-\paragraph{Not-Here:} You may go not-here by turning your name-badge
-around so the ``I'm Not Here'' side is showing (or by removing your
-badge entirely, if you are leaving game).  Putting a hand on your
-head, visible from a distance, helps if you're near other players.  Go
-not-here for one of only three reasons: because a rule instructs you
-to, to leave game, or to fetch a GM while in a halt (which you should
-avoid).
+\paragraph{Not-Here:} You may go not-here by setting yourself to ``invisible'' in Discord. Go ``not-here'' only if a rule instructs you to, or to take a ``Time Out''.
 
-%% last two sentences not for closed-time/space game
-When you are not-here, your character is not there.  Your character
-cannot see, hear, or remember any game actions or information you (the
-player) happen to encounter.  Avoid other characters, common game
-areas, game signs, or any sort of game interaction.  
-%%To leave or entergame for the night/day/whatever, walk to somewhere public.  Don't go not-here in front of other characters; give them a fair chance to interact with (ambush) you.
-
-%% for shorter, intense games (SIK, etc.), add a NP Halt rule
-\paragraph{Non-Players:} Use tact and common sense when dealing with
-non-players ({\bf NPs}).  You are encouraged to spread the gospel of
-real-time, real-space roleplaying; however, many NPs prefer to sleep,
-study, or work undisturbed.
-
-NPs may not knowingly affect the game.  They and their rooms may not
-be used to hold items or information.  They may not help you kill.  Do
-not use the presence of NPs to hide from rampaging mobs that want your
-blood.
-
-Avoid conspicuous or threatening game actions in front of NPs.
-Shooting your friend outside of a classroom one minute before class
-lets out is a bad idea, as is screaming bloody murder down a hallway.
-If, despite your most valiant efforts, some NPs do get upset, call the
-GMs who will help calm them down.
-
-If you are about to take an action that would likely upset a nearby NP, you may call a game-halt. This is considered an out-of-game issue.
-
-%% not for closed-space games
-%%\paragraph{Player Rooms:} Players may retreat to their rooms to study,
-%%sleep, or whatever in safety.  Your character may not enter a player's
-%%room unless invited in-game.  This has traditionally been called the
-%%``jhereg rule.''  Do not use your room as an impenetrable meeting
-%%place or stash site.  If your character is in-game in your room, other
-%%characters may interact with (kill, torture) you.  Roommates and
-%%similar are considered to have separate rooms for this rule.
-
-\paragraph{Observers:} An observer is someone not playing the game who
-has agreed to watch.  They generally wear an observer headband or an
-observer name-badge.  Observers have traditionally been called
-``ghosts.''  They should stay out of the way; you can always ask an
-observer to leave.  If a friend who is not playing wants to observe
-game, send them to the GMs.
+\paragraph{Observers:} An observer is someone not playing the game who has agreed to watch.  They will get an ``observer'' role to make them more visually apparent on the server.  Observers have traditionally been called ``ghosts.''  They should stay out of the way; you can always ask an observer to leave.  If a friend who is not playing wants to observe game, send them to the GMs.
 
 \clearpage
-\paragraph{Mechanics:} Many actions your character can take, such as
-walking, talking, and general interaction with other characters, are
-represented by you doing them.  Others, like combat, are performed via
-abstract mechanics, which are described in ability cards, greensheets,
-and rules.  The abstract information for mechanics (like badge
-numbers) may not be discussed in-game.  If you want to do something
-special for which there is no mechanic, ask a GM.
+\paragraph{Mechanics:} Many actions your character can take, such as, talking with other characters, are represented by you doing them.  Others, like combat, are performed via
+abstract mechanics, which are described in ability cards, greensheets, and rules.  The abstract information for mechanics (like badge numbers) may not be discussed in-game.  If you want to do something special for which there is no mechanic, ask a GM.
 
-Become familiar with your mechanics before game starts, especially
-those which occur under time-pressure (like combat).  Game action will
-not stop for memory packets, greensheets, or such.
+Become familiar with your mechanics before game starts, especially those which occur under time-pressure (like combat).  Game action will not stop for memory packets, greensheets, or such.
 
-A {\bf kludge} (and derivative forms like ``kludge-ite'') is something
-impervious to logic and cleverness, usually for game-balance.  You
-can't affect a kludge without a specified mechanic.
-
-{\bf Zone of Control} ({\bf ZoC}) is a rough distance measurement.
-You are within ZoC of someone if your outstretched fingers can touch
-their outstretched fingers.  Double-ZoC is twice this distance,
-triple-ZoC is three times, etc.
-
-{\bf Headbands} represent obvious visual effects; wear them visibly on
-your head.  If you see a headband and don't know what it represents,
-ask.  If you are wearing a headband, tell people what their characters
-see. See the end of this document for additional details
-
-An {\bf interruptible} mechanic has some duration, and may involve
-continuous roleplaying.  It is stopped if you are attacked or if
-someone within ZoC says {\bf ``I stop you''} or an equivalent phrase.
-Some mechanics may be easier or harder to interrupt.
-
-A {\bf n-count} is an interruptible mechanic with a repeated, counted
-incant (``I pour a drink one, I pour a drink two, I pour a drink
-three'').  Speak clearly; each count must take at least a full second.
-Each n-count will specify the number, e.g.\ a 3-count.
-
-%To play {\bf Rock, Paper, Scissors} ({\bf RPS}), you and your
-%opponent(s) say ``one, two, three, show'' in unison.  On ``show''
-%everyone displays and compares their chosen symbol.  Rock is a closed
-%fist.  Paper is a flat hand with palm down.  Scissors is a fist with
-%the first two fingers extended, looking vaguely like a pair of
-%scissors.  Rock defeats (crushes) scissors, scissors defeats (cuts)
-%paper, paper defeats (covers) rock, and any symbol ties with itself.
-%You may see or be able to play other, special symbols; the wielder
-%will know what happens.
-
-\paragraph{Safety:} This is a game.  Real violence is unacceptable.
-Game action should cause no real-world damage, either to people or
-property.  If something dangerous is happening, call a halt.  Stay in
-control, use common sense, and do not endanger yourself or others.
-You should not run or otherwise force your way into or through someone
-else's ZoC, and you should not make physical contact with another
-player without permission.
+A {\bf kludge} (and derivative forms like ``kludge-ite'') is something impervious to logic and cleverness, usually for game-balance.  You can't affect a kludge without a specified mechanic.
 
 \subsection{Basic Strategy}
 
-Make sure you understand the rules.  If you are completely confused,
-get a GM who will try to help you out.  Make sure you know enough
-about your character to role-play him or her when you start talking to
-other people.  Read through your entire packet a couple of times, and
-skim through it again right before game starts.  If you don't know
-something about your character, ask a GM.
+Make sure you understand the rules.  If you are completely confused, get a GM who will try to help you out.  Make sure you know enough about your character to role-play them  when you start talking to other people.  Read through your entire packet a couple of times, and skim through it again right before game starts.  If you don't know something about your character, ask a GM.
 
-As a character, your first priority should be to open lines of
-communication.  Contact people, show up at meetings, and chat.  Try to
-be easy to get in touch with.  Ask people questions on relevant
-subjects.  They'll probably lie, but you may find something out.
-
-There are no guarantees that you can trust anyone, but since
-cooperation is the key to accomplishing things, you will be forced to
-trust people anyway.  The most trustworthy people are probably those
-who need you.
-
-Those who do not study history are doomed to repeat it. This game has a lot of history in it. You should strive to learn as much as you can about your history, and the history of those around you.
-
+As a character, your first priority should be to open lines of communication.  Contact people, show up at meetings, and chat.  Try to be easy to get in touch with.  Ask people questions on relevant subjects. They'll probably lie, but you may find something out. There are no guarantees that you can trust anyone, but since cooperation is the key to accomplishing things, you will be forced to trust people anyway.  The most trustworthy people are probably those who need you.
 
 \clearpage
-\section{Items Etc.}
+\section{The Game World}
 
-Many in-game items are represented by little white cards with a number
-and description.  Item cards may be shown to others, passed around,
-stolen, etc.  The {\bf item number} on the card is not in-game
-information and may not be discussed.  
+\paragraph{Signs:} Some locations and other game materials are represented by ``signs''. Each text channel in the discord (except your private one) has signs associated with it, that convey information about the world you are in.  You may read any signs and must follow any rules printed on them.  If a sign or packet doesn't have some sort of in-game description (it only has out-of-game mechanics information, like a number or just a colored dot), then your character doesn't even see it or know that anything unusual is there.
 
-Some mechanics in game may involve making item cards. Such items should be clearly marked as ``in game'' and treated as such.
+\paragraph{Containers:} Containers are a special type of sign. These signs have the ability to store items. By reading the description on the sign, you can get a sense of what might be in the container. If you meet the conditions for doing so, you can search and take, or add items to a container. If no conditions are listed, anyone may do this. Most containers will take 30 seconds to search, this means you won't see what you find until 30 seconds after you input the search command. {\bf Stay in the same place - text and voice - until you get your results.} This time is representing the time it takes for your character to search the space - it wouldn't make sense for you to wander off to a different location, and then wander back to see what you found, so please don't do it.
 
-Use common sense.  You can't carry a hundred rocks in your pocket,
-fold a sword in half, or hide a life-sized statue in a fire hose.  You
-can't stop a bullet with a set of blueprints or rip apart a metal safe
-with your bare hands.  Even if your bag can carry a shovel in it, the
-shovel noticeably sticks out (``you see a shovel sticking out of my
-bag'').
-
-\paragraph{Written Information:} If you write in-game information down
-on a piece of paper, that paper is now an in-game item and must be
-clearly marked as such.  Don't write in-game information on
-out-of-game documents (character sheet, etc.).  Don't write
-out-of-game information (like memory packet triggers) on in-game
-documents.
-
-\paragraph{Envelopes:} Some items and locations may have an attached
-envelope (or just be a labeled packet or folded paper).  The envelope
-may include directions for when to open these (``open packet if you
-press the big red button'' or ``open packet if you eat this'');
-otherwise you may only open them if instructed.  Close them when you
-are done.  Open and close packets gently.
-
-\paragraph{Signs:} Some locations and other game materials are
-represented by signs or packets posted throughout game area.  You may
-read any signs and must follow any rules printed on them.  If a sign
-or packet doesn't have some sort of in-game description (it only has
-out-of-game mechanics information, like a number or just a colored
-dot), then your character doesn't even see it or know that anything
-unusual is there.
-
-\paragraph{Bulkiness:} A bulky item is too big or heavy to be carried
-or concealed freely.  Bulkiness is measured in {\bf hands} or {\bf
-dots} (how many hands it takes to carry it).  If you are carrying a
-bulky item, make it clear to onlookers (hold the card).  A hand
-carrying a bulky object may do nothing else.  With one hand less than
-required, you may drag a bulky item at a slow pace.
-
-\paragraph{Valuable:} Some items are marked ``valuable''. Some plots may require you to acquire valuable items. Any item that has this tag qualifies.
-
-\paragraph{Props:} Some items may have props (physical representations
-or {\bf physreps}) associated with them.  The card and physrep should
-be kept together.  If they are separated, the card is the real item.
-Prop items are as bulky as the physrep.  They can be carried in bags
-that can hold them, on straps that are attached to them, etc.
-
-\paragraph{Character Bodies:} A body is {\bf three hands bulky} and
-usually represented by a name-badge.  It must be willing or unable to
-resist for you to carry it.  Carry the badge conspicuously.  Onlookers
-can't tell if it's dead without close examination, unless it would be
-obvious (like headless).
-
-\paragraph{Unstashable Items:} Unstashable items can't be hidden or left behind.  They look too important, valuable, or interesting; NPCs will not let them stay there.  These include any item that has a physrep. This is a kludge.  If you're not leaving an unstashable item in another PC's care, and you want to leave it behind, give it to a GM or observer.  You may leave it in plain sight in a public area if there are other PCs around.
+\paragraph{Character Bodies:} Character bodies cannot be moved, hidden, or destroyed in any way. (This is a kludge)
 
 \clearpage
 \subsection{Searching, Stashing, and Stealing}
 
-\paragraph{Places:} To search a place, search it.  Normal items can be
-stashed in any reasonable, legal place.  Don't put items behind locked
-doors, inside ceilings, in construction sites, or in hacking
-locations; consequently, don't go rummaging through such places for
-game items.  Don't stash or search in places that are not in-game; see
-the {\em Game Areas} section for more information.
+\paragraph{Areas:} To search a place, search it using the ``?search '' command.
 
-\paragraph{People:} All searches of characters or their belongings are
-conducted via player dialogue.  Someone must be willing or unable to
-resist for you to search them.  You need at least one free hand to
-search someone.  Searching is interruptible (see above).
+\paragraph{Containers:} To search a container, search it using the ``?searchcontainer <contianername> '' command.
 
-You can perform a {\bf pat-down search}, which will only reveal the
-presence of weapons.  This takes as much time as it takes your victim
-to tell you what you find.  If you're the victim, do this at a
-reasonable pace.
-
-A {\bf total search} is an invasive, complete search of a character's
-clothing.  This reveals all in-game items, and takes as long as your
-victim spends handing over possessions.  If you're the victim, hand
-over items at a reasonable pace. {\bf Items labeled ``magical effect'' 
-are never revealed during searches unless you know otherwise.}
-
-\paragraph{Bags:} To search a bag in someone's possession, say ``I
-search your bag.''  This proceeds just as a total search.  To search
-an unattended bag, search the physrep.  Don't look through someone's
-character packet, read their psets, steal their lunch, etc.  If the
-bag has an attached, displayed item card with an envelope, the bag is
-a prop; search the envelope and not the bag.
-
-If you want to leave in-game items in an unattended bag (e.g.\ to hide
-a bomb), keep items in reasonable places that could be found with a
-quick search of the bag.  Don't hide in-game materials mixed together
-with out-of-game materials.  You can attach an item card and envelope
-to segregate in-game items from out-of-game materials.
-
+\paragraph{People:} All searches of characters or their belongings are conducted via player dialogue and discord text.  Someone must be willing or unable toresist for you to search them.  You need at least one free hand to search someone. A search will reveals all in-game items. Once someone consents to the search, or they are unable to resist, have them type ``?giveall <@user>'' with you as the user. This will hand over all of their items to you.
 
 \clearpage
 \section{Violence, Damage, and Death}
 
 \subsection{Health States}
 
-Characters have five possible states, concerning health and damage.
-When you are {\bf fine}, you may act freely.  When you are {\bf
-restrained}, you are helpless and may do nothing but talk.  When you are
-{\bf knocked out}, you will wake up in five minutes.  When you are
-{\bf wounded}, you are unconscious, bleeding, and will die in five
-minutes.  When {\bf dead}, you are dead.
+Characters have five possible states, concerning health and damage. When you are {\bf fine}, you may act freely.  When you are {\bf restrained}, you are helpless and may do nothing but talk.  When you are {\bf knocked out}, you will wake up in five minutes.  When you are {\bf wounded}, you are unconscious, bleeding, and will die in five minutes.  When {\bf dead}, you are dead.
 
-When knocked out or wounded, fall down and drop anything you are
-holding.  Just lie there.  You won't be doing much of anything until
-you wake up.  Do not listen to conversations going on.
+When knocked out or wounded, disconnect from the voice channel and start a 5 minute timer. Whenever someone joins the voice channel, @ their name or role, and tell them you are lying on the floor knocked out or wounded. I.E.: ``@Captain: I'm wounded on the floor.''
 
-Dead men tell no tales.  If dead, do not give out any information
-about your character or death to any players.  You may remain on the
-scene to play the part of your corpse; describe obvious information to
-onlookers (``I have a gunshot wound in my back'').  When you leave,
-place the front of your name-badge with a description of the body's
-obvious state.  Take the ``I'm Not Here'' side to wear.  Stack your
-items with your body.  Fill out your Death Report.  Make sure the GMs
-know about your death.  If your death becomes generally known to the
-other characters, you may be able to become an observer.  Until the
-game is over, you may not convey game information to any player.
+Dead men tell no tales. If your character dies, do not give out any information about your character or death to any players.  You may remain on the scene to play the part of your corpse. We encourage you to do so for a few minutes. Describe obvious information to onlookers (``I have a gunshot wound in my back'').  When you go to leave, {\bf tell a GM} so we can add a container describing the body and to hold any items you had. If your death becomes generally known to the other characters, you may be able to become an observer.  Until the game is over, you may not convey game information to any player.
 
-\subsection{Weapons}
-
-Weapons are represented only by item cards in this game (no phys reps).
-Weapon effects are on the card.  To use a weapon, you must have it in
-your hand and unobstructed.  Display it in an obvious manner.  You
-cannot hold more than one weapon in a hand.  You may only use one
-melee weapon at a time.
-
-\subsection{Killing Blow}
-
-Unless you know otherwise, killing blows are forbidden in this game. A player may still bleed out and die.
-
-%\subsection{Bombs}
-%
-%Arming or disarming a bomb requires an appropriate ability card.  If a
-%bomb explodes, it will be made obvious by a halt being called.  If you
-%are within arm's reach of a bomb when it explodes, you are dead.  A
-%bomb will have a piece of string attached to it.  If, when stretched
-%out (even around corners), the string can touch you, you are wounded.
-%Once the dead and wounded have been determined, game will resume.
 
 \clearpage
 \subsection{Martial Combat}
 
 %% intro
-All characters have a {\bf Combat Rating} ({\bf CR}) stat.  This
-represents your basic skill in martial combat; you use the same number
-for attacking and defending.  Someone with a CR of one can't fight
-very well.  Someone with a CR of three is somewhat burly or skilled.
-When using this stat, you may pull your punches by using a lower
-number.
+All characters have a {\bf Combat Rating} ({\bf CR}) stat.  This represents your basic skill in martial combat; you use the same number for attacking and defending (unless you know otherwise).  Someone with a CR of one can't fight very well.  Someone with a CR of three is somewhat burly or skilled. When using this stat, you may pull your punches by using a lower number.
 
 %% offense
-To martial-attack someone, clearly state your attack and CR
-(``\aKnockOut{} 2'', ``\aWound{} 2'', etc.) from within ZoC.  You need
-the ability card for any attack you make; you don't have to display
-it.  Your attack must resolve before you make another; otherwise, you
-may act freely.  If an ally directs {\bf \aAssist{}} at you after you
-attack, you may, within 2 seconds, restate your attack with the
-\aAssist{}'s CR added (``\aWound{} 3'', ``\aAssist{} 2'', ``\aWound{}
-5'').  \aAssist{} does not change your CR for defense.  You may ignore
-an \aAssist{}.
+To martial-attack someone, clearly state your target, your attack and your CR (``Captain, \aKnockOut{} 2'', ``Medical, \aWound{} 2'', etc.). You must be in the same voice channel with the person you are attacking. Your first attack must resolve before you make another; otherwise, you may act freely (aka you may talk).  If an ally directs {\bf \aAssist{}} at you after you attack, you may, within 2 seconds, restate your attack with the \aAssist{}'s CR added (``Captain \aWound{} 3'', ``Meidical \aAssist{} 2'', ``Captain \aWound{} 5''). You may ignore an \aAssist{}. {\bf You may not assist defense, only attacks}.
 
-{\bf If you wound someone or assisting in a wound attack,} you must put on a red headband for 10 minutes. This represents the fact that it is obvious that you are bloody.
+Restrain attacks require an item which says that it may be used as rope (you must have the item in your posession). Knock Out and Wound attacks do not require any items.
 
-%Wound attacks require a \iKnife{}. Restrain attacks require rope (which is freely available). Knock Out attacks do not require any item.
+\paragraph{Rope:} Rope is {\bf not} freely available. You will need to find an item that says it can be used as rope. To tie someone up, they must be either willing, helpless (unconcious or wounded), or you must win a martial-attack against them.  If you get tied up with rope, you become restrained. You are unable to change game spaces (channels) on your own, but can be moved by someone else. Moving someone who is restrained requires 1 hand free (you cannot carry an object with bulkiness 2 at the same time).  If you are conscious and left alone (no one else in the same game space with you), you can wriggle free in five minutes.
 
 %% defense
-When martial-attacked, resolve by comparing the attack against your
-CR.  If your CR is lower, take the effects; else, say ``{\bf resist}''
-and the attack has no effect.  If you neither say ``resist'' nor state
-your own attack within two seconds of the incant's end, you are
-surprised and the attack just works.  The attack begins when the
-incant begins; until you resolve, all of your actions other than
-martial attacks are interrupted; serial attacks don't prevent simple
-actions (talking, weapon-drawing, ranged attacks) in-between.  Resolve
-all attacks alone, in the order they occur; choose the order if it is
-unclear.  If you are attacked with ``{\bf waylay}'' instead of a CR
-(``\aKnockOut{} waylay''), the attack just works.
+When martial-attacked, resolve by comparing the attack against your CR.  If your CR is lower, take the effects; else, say ``{\bf resist}'' and the attack has no effect. {\bf Do not state your CR when you resist. Just say ``resist''}.  If you neither say ``resist'' nor state your own attack within two seconds of the incant's end, you are surprised and the attack just works.  Serial attacks don't prevent simple actions (talking) in-between.  Resolve all attacks alone, in the order they occur; choose the order if it is unclear. 
 
-\paragraph{Martial Attack Abilities:} Here is a list of attack
-abilities.  You should assume that every character has \aKnockOut{}, \aWound{},  \aAssist{}, and \aRestrain{}.  Other attack
-abilities may exist.\nopagebreak
+{\bf You may not assist defense, only attacks}. If you have an ally but your CR is not high enough to resist an attack, your best option might be to attempt a counter attack. At best this will leave you and your attacker knocked out or wounded, and your ally can heal you up (or go through your pockets.)
+
+There are no stealth attacks of any kind in this game.
+
+\paragraph{Martial Attack Abilities:} Here is a list of attack abilities.  You should assume that every character has \aKnockOut{}, \aWound{},  \aAssist{}, and \aRestrain{}.  Other attack abilities may exist. Assume you have the ability to use all of these attacks unless you know otherwise (i.e.: your character sheet says ``you may not use {\bf knock out} attacks.'')\nopagebreak
 
 \begingroup
   %% complicated typesetting
@@ -577,153 +280,115 @@ abilities may exist.\nopagebreak
   \aKnockOut{}
   \aWound{}
   \aAssist{}
-  \aDisarm{}
   \aRestrain{}
 \endgroup
 
-\subsection{Stealth}
+\subsection{Killing Blow}
 
-Stealth abilities represent sneaking up on a victim with obvious
-intent to invade their personal space, probably to attack them by
-surprise or to pick their pocket.
-
-To use a stealth ability, you must be within ZoC of your victim.  Form
-the sign of the devil (index and pinky fingers extended, thumb holding
-other two fingers down) and extend it along the direct, unobstructed
-line from your shoulder to the victim's head.  Hold this position for
-the time specified by your ability.  Before this time is up, the
-ability is thwarted if anyone attacks you or if the victim notices the
-symbol.  If they react in any way to the symbol, they have noticed;
-you (the attacker) make the call.
-
-If you notice someone using a stealth ability on you, make it obvious.
-``I notice you'' is unambiguous; use it if you can.  Once a stealth
-ability is finished, you may not retroactively have noticed.
-
-\paragraph{Waylay:} You can attack by surprise as a stealth ability.
-You must hold the symbol for five seconds.  If you succeed, you may
-replace your CR with ``waylay'' for a single immediate attack on your
-victim.
-
-
-\paragraph{Rope:} Rope is freely available as seaweed.  Make an item card for it.
-To tie someone up, they must be either willing or helpless.  If you
-get tied up with rope, you become restrained.  If you are conscious
-and left alone, you can wriggle free in five minutes.  Rope is a one-hand bulky item.
-
-\paragraph{Doors and Locks:} Some doors or items in game are {\em locked}. You may not open them or get past them unless you fit the requirements listed, or have some other method of opening locks. Closing such an item or door locks it again.
-
-
-\clearpage
-\section{Miscellaneous}
-
-\paragraph{Headband Colors:} Differently colored head bands are used
-in this game to represent obvious aspects of a players appearance. They are
-also used to delineate GMs and observers.
+Killing blows are a the only ``n-count'' mechanic in this game (it is also the only interruptable mechanic in game). If your character wishes to kill another character, but don't feel like waiting for them to bleed out from a wound attack (or don't want anyone to find them and heal them), you must use the ``Killing Blow'' mechanic. {\bf You must have both hands free, aka not holding any bulky items to perform a killing blow.} If you have a willing or helpless (restrained, knocked out, wounded) victim, you may begin an n-count of 10 by:
 \begin{enumerate}
-  \item A white headband represents GMs and observers.
-  \item A green headband represents a human.
-  \item A red headband represents a bloody character. This is immediately visible to all observers. Red headbands are acquired by performing wound attacks or assisting in such attacks.
-  \item A yellow headband represents a shark. Don't get too close!
-  \item A black headband represents a terror of the deep. You should ask what you see from a safe distance.
-  \item If you see another color head band, you should ask the player what you see.
-\end{enumerate}
+  \item Type into the text channel: ``Captain Killing blow 0'' (Indicating who you are targetting with the mechanic)
+  \item Speak in the voice channel, and a reasonable speed and volume: ``Killing blow 1,'' ``Killing blow 2''\ldots up to ``Killing blow 9.'' 
+  \item Type into the text channel: ``Captain Killing Blow 10.''
+\end{enumerate}  
 
-\paragraph{Badge Numbers:} The first digit of your badge number is
-your character's apparent age in decades. All hands are 2 hands bulky.
-%  The second digit is your
-%character's apparent burliness: a ``3'' is pretty skinny, a ``5'' is
-%average, and an ``8'' is huge and muscular.
+If you reach 10, then your target is dead. At any point before you reach 10 however, someone else may say ``I stop you,'' or engage you in combat. This interrupts you, and you will have to start your count over again. It is necessary to start and end in the text channel in order to give someone who is just moving into that game space and has not yet connected to voice a chance to realize what is going on. It also gives an unconcious or wounded victim knowledge of what is happening (since they are supposed to disconnect from the voice channel.) We won't make you type the whole thing as it can be tedious.
 
-%% classic open-time 10-day game times
-%\paragraph{Game Times:} Game runs from 8pm on Friday to noon on
-%Sunday.  Surviving PCs are expected to be in-game for the entirety.
-%Game may end early.  Cleanup and Wrapup will immediately follow the
-%end of game.
-
-%% basic open-space game area rules
-%\paragraph{Game Areas:} Most publicly-accessible areas on campus are
-%considered in-game (your character can move about freely in them).  As
-%usual, avoid places it is illegal for you to go, areas under
-%construction, etc.  Don't take game actions in bathrooms, private
-%offices, activity offices, and other places not all players would be
-%allowed to enter.
-
-%When in living areas, such as dorms, remember the {\em Player Rooms}
-%section.  Many living areas on campus are not technically accessible
-%to all players.  Whether or not to take game action in your living
-%area is left to player judgment.
-
-%% if you have restricted-access buildings
-%There are some areas on campus that are not publicly in-game.  You may
-%not enter them in-character unless explicitly instructed to; if you
-%happen to be in them your character is not there.  These areas are:
-
-%% really basic locations?
-%The {\bf GM Control Room} is room x-xxx.  You may leave personal items
-%with the GMs.  The {\bf Common Room} is room y-yyy.  Do not leave
-%food, trash, or personal items in the Common Room overnight.
-
-%% Electronic communication goes hand-in-hand with cluster rules.
-%% Specifics of various types of communcation var by genre and game.
-
-%% if game has no athena/phones
-%Game action is not allowed in Athena clusters.  Don't hide in them,
-%either.  You may not use Athena or phones for any in-game purpose.
-
-%% or even
-%\paragraph{Electronic Information:} You may use email, zephyr, IM,
-%phones, and other forms of electronic communcation freely for game
-%purposes.  You may not violate any rules of use of these devices (no
-%packet sniffing, wiretapping, etc.).  When searching a character or
-%their stuff, you do not get access to their electronics, except in
-%specified instances.  Game action is allowed in Athena clusters, as
-%long as you obey the NP rules and don't make a mess.
-
-
-%% use this section for restating any new rules (big or small) that
-%% need attention drawn to them.  It is unnecessary if all new things
-%% have their own sections, etc.
-%\section{New Rule Summary}
-%
-%\begin{itemz}
-%
-%\item Bodies are three hands bulky, not two.
-%
-%\end{itemz}
+\subsection{Healing}
+Only characters with the ``First Aid'' ability can heal. Otherwise you cannot heal people. Dead characters cannot be healed.
 
 \clearpage
 
-\section{Silversiders Specific Changes}
-This section is a recap of the changes specific to this game from other
-MIT Assassins Guild style games played at Stanford and elsewhere in the recent past.
-There are also several new and important game-wide mechanics. Familiarize
-yourself with them before game.
+\section{TMF Hope Specific Changes}
+This section is a recap of the changes specific to this game from other MIT Assassins Guild style games played at Stanford and elsewhere in the recent past. There are also several new and important game-wide mechanics. Familiarize yourself with them before game.
 
-\subsection{Tape on the floor}
-There may be tape on the floor in this game. It represents obvious, visual effects, or an obstruction that you cannot cross. Stop and look around for a sign that explains whether you can cross this line or not.
+\subsection{Safety}
+Your safety tools for this game are:
+\begin{itemize}
+  \item ``<Character> Brake''
+  \item ``Time Out" / ``Time In''
+  \item Open Door Policy - please tell a GM if you can if you are leaving permenantly.
+\end{itemize}
 
-\subsection{Stickers}
-Placing stickers on another player represents a sketchy action like pickpocketing. If you see someone placing a sticker, you should probably ask what you see. Stickers already in place are out-of-game information.
+\subsection{Combat}
+The game specific changes to Darkwater combat are:
+\begin{itemize}
+  \item You need an item that can serve as rope to make a ``restrain'' attack.
+  \item You do not need an item to make ``knock out'' or ``wound'' attacks.
+  \item Killing blows must be on a helpless or willing target. They require a 10-count and must be posted in the text channel as well as being spoken in the voice channel (see above)
+  \item There is no ranged combat in this game.
+  \item There is no waylay mechanic (stealth combat) in this game. 
+\end{itemize}
 
-\subsection{Other}
+{\bf Reminder: You cannot assist defends.}
 
-There is no ranged combat in this game.
-
-There are many headbands in this game, some colors are known to everyone, some are not.
-If you do not know what a headband represents, ask.
+\subsection{Discord}
+Reminders about the Discord Server:
+\begin{enumerate}
+  \item You must change voice channels and text channels together to change game spaces. The exception is moving to your private text channel to interact with a mechanic. Make sure you come back to the same text channel as the voice  channel you are still in.
+  \item You can only pass items between characters currently in the same game space as each other.
+  \item If you have a trigger listed on your character sheet that says ``Enter the following in your private channel at game start.'' Don't forget to do that; it is the start of a research chain that is important to your character.
+  \item You can always use ``@GM'' in the matching text channel to call a GM to your text/voice channel.
+\end{enumerate}
 
 \section{Closing Notes}
 
-These rules are imperfect.  The GMs may violate the letter of the
-rules to preserve the spirit.  We hope these rules are reasonably
-clear, but if you have any doubts about your interpretation, talk it
-over with us in advance.  We should also add, as much as we hate to
-admit it, we GMs are human: when all of our carefully laid plans are
-going haywire, we may lose our cool.  The best way to deal with people
-is remaining calm and friendly, especially when everyone is tired and
-hungry.
+These rules are imperfect.  The GMs may violate the letter of the rules to preserve the spirit.  We hope these rules are reasonably clear, but if you have any doubts about your interpretation, talk it over with us in advance.  We should also add, as much as we hate to admit it, we GMs are human: when all of our carefully laid plans are going haywire, we may lose our cool.  The best way to deal with people is remaining calm and friendly, especially when everyone is tired and hungry.
 
 We hope you have lots of fun.  Good luck.
+
+\appendix
+\section{Discord Commands For Players}
+The ``Playground'' channel in the OOC category of Discord will give you a chance to practice these commands before game. Take advantage of it! The more familiar you are with the commands, the more natural it will all feel.
+
+\begin{tabular}{ |p{3cm}|p{3cm}|p{3cm}|p{3cm}|  }
+ \hline
+ 
+\multicolumn{4}{|c|}{Interacting with the World} \\
+\hline
+Command & Example & Circumstance  or Effect & Channel to use it in\\
+    \hline
+   ?search    & ?search    & Search an Area for what you see. It will return a list of signs and containers in the area. &   Game Space Channel\\
+    \hline
+   Afghanistan   & AF    & Read a Sign &   Game Space Channel\\
+    \hline
+   Afghanistan   & AF    & Switch a Sign out with another one (changing something in the environment). The sign being changed out will tell you the name of the sign to be changed in. &   Game Space Channel\\
+    \hline
+  Afghanistan   & AF    & Read a Container, then optionally search it &   Game Space Channel\\
+    \hline
+
+\multicolumn{4}{|c|}{Items} \\
+\hline
+Command & Example & Circumstance  or Effect & Channel to use it in\\
+    \hline
+  ?inventory   & ?inventory    & Check your own inventory of items for what you are carrying &   Private Channel\\
+    \hline
+  ?listitem <itemname>   & ?listitem banana    & Gives you the name, description, and bulkiness of the item &   Private Channel\\
+    \hline
+  ?drop <itemname>   & ?drop banana    & Move an item from your inventory to a container &   Game Space Channel\\
+    \hline
+  ?give<@user> <itemname>   & ?give@Captain banana    & Transfer an item in your inventory to the tagged user's inventory. The bot will technically allow you to transfer items between any two characters. {\bf The Game Rule} is that you can only pass items if you are both in the same game space. &   Game Space Channel\\
+    \hline
+
+\multicolumn{4}{|c|}{Abilities} \\
+\hline
+Command & Example & Circumstance  or Effect & Channel to use it in\\
+    \hline
+  ?abilities   & ?abilities    & list your abilities, their description and their effects &   Private Channel\\
+    \hline
+  ?abilities   & ?abilities    & list your abilities, their description and their effects &   Private Channel\\
+    \hline
+ 
+ 
+\multicolumn{4}{|c|}{Memory Packets, Event Triggers, and Research Chains} \\
+\hline
+\multicolumn{4}{|c|}{refer to the pinned messages in your Private channel for the triggers your character starts with.} \\
+\hline
+Command & Example & Circumstance  or Effect & Channel to use it in\\
+    \hline
+  ?abilities   & ?abilities    & list your abilities, their description and their effects &   Private Channel\\
+    \hline
+ \hline
+\end{tabular}
 
 \end{document}
