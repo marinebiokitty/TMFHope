@@ -39,7 +39,7 @@
 %% Basic custom game information; gets used everywhere.  Don't put
 %% linebreaks in these and keep their lengths reasonable.
 \def\gamename{The TMF Hope}
-\def\gamedate{NEEDS A DATE}
+\def\gamedate{Feb 26, 2021}
 
 
 %%%%%
@@ -188,9 +188,9 @@
 %% out) the tlist environment that corresponds to abilities.
 \def\charsheetlists{%
   %% listed mempackets
-  \begin{tlist}{Memory/Event Packets}
-    \MYmems
-  \end{tlist}
+  %\begin{tlist}{Memory/Event Packets}
+   % \MYmems
+  %\end{tlist}
   %% listed bluesheets
   \begin{tlist}{Bluesheets}
     \MYblues
@@ -200,16 +200,16 @@
     \MYgreens
   \end{tlist}
   %% listed abilities
-  \begin{tlist}{Abilities}
-    \MYabils
-    \MYskills
-  \end{tlist}
+  %\begin{tlist}{Abilities}
+   % \MYabils
+    %\MYskills
+ % \end{tlist}
   %% listed items, etc
-  \begin{tlist}{Items}
-    \MYitems
-    \MYwhites
-    \MYcash
-  \end{tlist}
+  %\begin{tlist}{Items}
+   % \MYitems
+    %\MYwhites
+    %\MYcash
+  %\end{tlist}
   %% listed stats
   \begin{tlist}{Stats}
     \MYstats
