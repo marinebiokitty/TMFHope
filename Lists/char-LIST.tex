@@ -65,7 +65,6 @@
 %% as the \MYhp field, that defaults to 5.
 \PRESETS{Char}{
   \FD\MYdesc	{} %% badge description
-	\newstat\MYpronouns	{Pronouns}{P}{They/Them} %% for pronouns
   \newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
 	\newstat\Myalpha {$\alpha$}{$\alpha$}{0}
 	%\newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
@@ -113,8 +112,8 @@
 \pronoun{\Themself}	{Himself}{Herself}{Themself}
 \pronoun{\spouse}	{husband}{wife}{spouse}
 \pronoun{\Spouse}	{Husband}{Wife}{Spouse}
-\pronoun{\offspring}	{son}{daughter}{offspring}
-\pronoun{\Offspring}	{Son}{Daughter}{Offspring}
+\pronoun{\offspring}	{son}{daughter}{child}
+\pronoun{\Offspring}	{Son}{Daughter}{Child}
 \pronoun{\kid}		{boy}{girl}{child}
 \pronoun{\Kid}		{Boy}{Girl}{Child}
 \pronoun{\guy}		{guy}{gal}{person}
@@ -122,14 +121,10 @@
 \pronoun{\Sibling}	{Brother}{Sister}{Sibling}
 \pronoun{\parent}	{father}{mother}{parent}
 \pronoun{\Parent}	{Father}{Mother}{Parent}
-\pronoun{\uncle}	{uncle}{aunt}{insert as needed}
-\pronoun{\Uncle}	{Uncle}{Aunt}{Insert as Needed}
-\pronoun{\nephew}	{nephew}{niece}{nibling}
-\pronoun{\Nephew}	{Nephew}{Niece}{Nibling}
-\def\aunt{\uncle}
-\def\Aunt{\Uncle}
-\def\niece{\nephew}
-\def\Niece{\Nephew}
+\pronoun{\auncle}	{uncle}{aunt}{auncle}
+\pronoun{\AUncle}	{Uncle}{Aunt}{Auncle}
+\pronoun{\nibling}	{nephew}{niece}{nibling}
+\pronoun{\nibling}	{Nephew}{Niece}{Nibling}
 \pronoun{\human}	{man}{woman}{person}
 \pronoun{\Human}	{Man}{Woman}{Person}
 \pronoun{\sex}		{male}{female}{nonbinary}
@@ -215,12 +210,13 @@
   \s\MYfile	{Captain.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Captain}
-  \MYsex	{\male}
-	\MYpronouns {He/Him}
-  \s\MYplayer	{Test Player}
+  \MYsex	{\female}
+  \s\MYplayer	{Freya Crowe}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-	\s\Myalpha {1}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\Myalpha {1}
   \s\MYcr{2}
 }
 
@@ -229,11 +225,13 @@
   \s\MYfile	{Diplomat.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Diplomat}
-  \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \MYsex	{\female}
+  \s\MYplayer	{Alison Joy}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cEng}{
@@ -242,10 +240,12 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Engineer}
   \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYplayer	{Louis Wasserman}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cMed}{
@@ -254,10 +254,12 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Medical Officer}
   \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYplayer	{Andrés Pérez-Bergquist}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cNav}{
@@ -266,10 +268,12 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Navigator}
   \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYplayer	{Zev Trubowitch}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cSci}{
@@ -278,21 +282,26 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Science Officer}
   \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYplayer	{Ronan Beltracchi}
   
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cBoy}{
-  \s\MYname	{Cabin Boy}
+  \s\MYname	{Deck Hand}
   \s\MYfile	{Captain.tex}
   \s\MYnumber	{00000}
-  \s\MYdesc	{The Cabin Boy}
-  \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYdesc	{A new deck hand}
+  \MYsex	{\female}
+  \s\MYplayer	{Sarah Terman}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{1}
 }
 
 \NEW{PC}{\cWeap}{
@@ -301,10 +310,12 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{The Weapons Officer}
   \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \s\MYplayer	{Aaron Sunshine}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
-  \s\MYcr{2}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
+  \s\MYcr{3}
 }
 
 \NEW{PC}{\cXO}{
@@ -312,12 +323,14 @@
   \s\MYfile	{XO.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Executive Officer}
-  \MYsex	{\male}
-  \s\MYplayer	{Test Player}
+  \MYsex	{\neuter}
+  \s\MYplayer	{Elizabeth Jaye}
   
-	\s\MYblues	{\bHistory{}\bHope{}}
+  \s\MYblues	{\bHistory{}\bHope{}}
+  \s\Mygreens	{\gFixTheShip{}}
+  
   \s\Myalpha{1}
-	\s\MYcr{2}
+  \s\MYcr{2}
 }
 
 %%%%%%%NPCs%%%%%%%%%%%%%%%%%%%%
