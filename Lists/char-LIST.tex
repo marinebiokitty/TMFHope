@@ -66,7 +66,7 @@
 \PRESETS{Char}{
   \FD\MYdesc	{} %% badge description
   \newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
-	\newstat\Myalpha {$\alpha$}{$\alpha$}{0}
+	\newstat\MYalpha {$\alpha$}{$\alpha$}{0}
 	%\newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
 
   \FD\MYsex	{\male} %% \male, \female, \neuter, \ambiguous
@@ -90,7 +90,7 @@
 %% \male, \female, \neuter, \ambiguous
 %% \mfn{<masculine>}{<feminine>}{<neuter>}
 %% \mf{<masculine>}{<feminine>}
-%% \pronoun{<command>}{<masculine>}{<feminine>}{<neuter>}
+%% \pronoun{<command>}{<masculine>}{<feminine>}{<nonbinary>}
 \def\male{0}\def\female{1}\def\nonbinary{2}\def\ambiguous{3}
 \newcommand{\mfn}[3]{\ifcase\MYsex#1\or#2\or#3\else#1/#2\fi}
 \newcommand{\mf}[2]{\mfn{#1}{#2}{}}
@@ -98,24 +98,20 @@
 
 \pronoun{\they}		{he}{she}{they}
 \pronoun{\They}		{He}{She}{They}
-\pronoun{\theyare}		{he is}{she is}{they are}
-\pronoun{\Theyare}		{He is}{She is}{They are}
-\pronoun{\theyhave}		{he has}{she has}{they have}
-\pronoun{\Theyhave}		{He has}{She has}{They have}
-\pronoun{\theywere}		{he was}{she was}{they were}
-\pronoun{\Theywere}		{He was}{She was}{They were}
-\pronoun{\theydo}		{he does}{she does}{they do}
-\pronoun{\Theydo}		{He does}{She does}{They do}
-\pronoun{\plural}	{s}{s}{}
-\pronoun{\are}	{is}{is}{are}
 \pronoun{\them}		{him}{her}{them}
 \pronoun{\Them}		{Him}{Her}{Them}
 \pronoun{\their}	{his}{her}{their}
 \pronoun{\Their}	{His}{Her}{Their}
 \pronoun{\theirs}	{his}{hers}{theirs}
 \pronoun{\Theirs}	{His}{Hers}{Theirs}
-\pronoun{\theyre}	{he's}{she's}{they're}
-\pronoun{\Theyre}	{He's}{She's}{They're}
+
+\pronoun{\plural}	{s}{s}{TEST}
+\pronoun{\are}	{is}{is}{are}
+\pronoun{\re}	{'s}{'s}{'re}
+\pronoun{\do}	{does}{does}{do}
+\pronoun{\have}	{has}{has}{have}
+\pronoun{\were}	{was}{was}{were}
+
 \pronoun{\themself}	{himself}{herself}{themself}
 \pronoun{\Themself}	{Himself}{Herself}{Themself}
 \pronoun{\spouse}	{husband}{wife}{spouse}
@@ -198,7 +194,6 @@
   \s\MYnumber	{00000}
   \s\MYdesc	{a test}
   \MYsex	{\male}
-	\MYpronouns {He/Him}
   \s\MYplayer	{Test Player}
   
   \s\MYblues	{\bTest{}}
@@ -222,9 +217,9 @@
   \s\MYplayer	{Freya Crowe}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
-  \s\Myalpha {1}
+  \s\MYalpha {1}
   \s\MYcr{2}
 }
 
@@ -237,7 +232,7 @@
   \s\MYplayer	{Alison Joy}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -251,7 +246,7 @@
   \s\MYplayer	{Louis Wasserman}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -265,7 +260,7 @@
   \s\MYplayer	{Andrés Pérez-Bergquist}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -279,7 +274,7 @@
   \s\MYplayer	{Zev Trubowitch}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -293,7 +288,7 @@
   \s\MYplayer	{Ronan Beltracchi}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -307,7 +302,7 @@
   \s\MYplayer	{Sarah Terman}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{1}
 }
@@ -321,7 +316,7 @@
   \s\MYplayer	{Aaron Sunshine}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
   \s\MYcr{3}
 }
@@ -331,13 +326,13 @@
   \s\MYfile	{XO.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Executive Officer}
-  \MYsex	{\neuter}
+  \MYsex	{\nonbinary}
   \s\MYplayer	{Elizabeth Jaye}
   
   \s\MYblues	{\bHistory{}\bHope{}}
-  \s\Mygreens	{\gFixTheShip{}}
+  \s\MYgreens	{\gFixTheShip{}}
   
-  \s\Myalpha{1}
+  \s\MYalpha{1}
   \s\MYcr{2}
 }
 
