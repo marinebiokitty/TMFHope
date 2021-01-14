@@ -1,0 +1,9 @@
+?makerole Captain
+?makerole XO
+?makerole Medical
+?makerole Science
+?makerole Weapons
+?makerole Diplomat
+?makerole Navigation
+?makerole Engineering
+?makerole Deck Hand

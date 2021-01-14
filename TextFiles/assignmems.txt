@@ -1,0 +1,89 @@
+?assignmem Medical . Medical Officer Research Notebook Page 1
+?assignmem Medical . Medical Page 2
+?assignmem Medical . Medical Page 3
+?assignmem Medical . Medical Page 4
+?assignmem Medical . Medical Page 5
+?assignmem Medical . Medical Page 6
+?assignmem Science . Science Officer Research Notebook Page 1
+?assignmem Science . Science Page 2
+?assignmem Science . Science Page 3
+?assignmem Science . Science Page 4
+?assignmem Science . Science Page 5
+?assignmem Science . Science Page 6
+?assignmem Navigation . Navigation Officer Research Notebook Page 1
+?assignmem Navigation . Navigation Page 2
+?assignmem Navigation . Navigation Page 3
+?assignmem Navigation . Navigation Page 4
+?assignmem Diplomat . Diplomat 1
+?assignmem Weapons . Weapons 1
+?assignmem Weapons . Threat Assessment 1
+?assignmem Weapons . Threat Assessment 2
+?assignmem Weapons . Threat Assessment 3
+?assignmem Weapons . Threat Assessment 4
+?assignmem XO . Threat Assessment 1
+?assignmem XO . Threat Assessment 2
+?assignmem XO . Threat Assessment 3
+?assignmem XO . Threat Assessment 4
+?assignmem Captain . Broom Closet
+?assignmem XO . Broom Closet
+?assignmem Medical . Broom Closet
+?assignmem Science . Broom Closet
+?assignmem Weapons . Broom Closet
+?assignmem Diplomat . Broom Closet
+?assignmem Navigation . Broom Closet
+?assignmem Engineering . Broom Closet
+?assignmem Deck Hand . Broom Closet
+?assignmem Captain . Lab Bench
+?assignmem XO . Lab Bench
+?assignmem Medical . Lab Bench
+?assignmem Science . Lab Bench
+?assignmem Weapons . Lab Bench
+?assignmem Diplomat . Lab Bench
+?assignmem Navigation . Lab Bench
+?assignmem Engineering . Lab Bench
+?assignmem Deck Hand . Lab Bench
+?assignmem Captain . Patient Bay
+?assignmem XO . Patient Bay
+?assignmem Medical . Patient Bay
+?assignmem Science . Patient Bay
+?assignmem Weapons . Patient Bay
+?assignmem Diplomat . Patient Bay
+?assignmem Navigation . Patient Bay
+?assignmem Engineering . Patient Bay
+?assignmem Deck Hand . Patient Bay
+?assignmem Captain . Kitchen
+?assignmem XO . Kitchen
+?assignmem Medical . Kitchen
+?assignmem Science . Kitchen
+?assignmem Weapons . Kitchen
+?assignmem Diplomat . Kitchen
+?assignmem Navigation . Kitchen
+?assignmem Engineering . Kitchen
+?assignmem Deck Hand . Kitchen
+?assignmem Captain . Weight Room
+?assignmem XO . Weight Room
+?assignmem Medical . Weight Room
+?assignmem Science . Weight Room
+?assignmem Weapons . Weight Room
+?assignmem Diplomat . Weight Room
+?assignmem Navigation . Weight Room
+?assignmem Engineering . Weight Room
+?assignmem Deck Hand . Weight Room
+?assignmem Captain . Theater
+?assignmem XO . Theater
+?assignmem Medical . Theater
+?assignmem Science . Theater
+?assignmem Weapons . Theater
+?assignmem Diplomat . Theater
+?assignmem Navigation . Theater
+?assignmem Engineering . Theater
+?assignmem Deck Hand . Theater
+?assignmem Captain . Crates
+?assignmem XO . Crates
+?assignmem Medical . Crates
+?assignmem Science . Crates
+?assignmem Weapons . Crates
+?assignmem Diplomat . Crates
+?assignmem Navigation . Crates
+?assignmem Engineering . Crates
+?assignmem Deck Hand . Crates

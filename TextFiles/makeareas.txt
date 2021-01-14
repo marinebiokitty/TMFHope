@@ -1,0 +1,7 @@
+?makearea bridge-yellow Bridge
+?makearea sci-lab-cyan Sci Lab
+?makearea med-bay-magenta Med Bay
+?makearea cafeteria-blue Cafeteria
+?makearea gym-green Gym
+?makearea rec-room-red Rec Room
+?makearea storage-bay-black Storage Bay

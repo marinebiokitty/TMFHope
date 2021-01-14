@@ -1,0 +1,2 @@
+?assignitem Captain . 1 Authorization Key
+?assignitem XO . 1 Authorization Key

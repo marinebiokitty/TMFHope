@@ -1,0 +1,9 @@
+?makeinventory Captain
+?makeinventory XO
+?makeinventory Medical
+?makeinventory Science
+?makeinventory Weapons
+?makeinventory Diplomat
+?makeinventory Navigation
+?makeinventory Engineering
+?makeinventory Deck Hand
