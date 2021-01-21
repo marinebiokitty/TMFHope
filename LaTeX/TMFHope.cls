@@ -205,11 +205,11 @@
     %\MYskills
  % \end{tlist}
   %% listed items, etc
-  %\begin{tlist}{Items}
-   % \MYitems
-    %\MYwhites
-    %\MYcash
-  %\end{tlist}
+  \begin{tlist}{Items}
+    \MYitems
+    \MYwhites
+    \MYcash
+  \end{tlist}
   %% listed stats
   \begin{tlist}{Stats}
     \MYstats
