@@ -164,19 +164,81 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%Repair items
 \NEW{Item}{\iTorch}{
   \s\MYname	{Welding Torch}
   \s\MYnumber	{0000}
-  \s\MYtext	{A Welding Torch. \bf{This item has a 5 minute cool-down after use.}}
+  \s\MYtext	{A welding torch. This item has a \textbf{5 minute cooldown} that begins when the task is completed before it can be used for a new task. (OOC Note: Players are responsible for keeping track of this cooldown and passing on that information if the item is handed off to someone else.)}
+  \s\\MYbulky	{1}
   }
-	
-\NEW{Item}{\iCrystal}{
-  \s\MYname	{Power Crystal}
+  
+\NEW{Item}{\iPutty}{
+  \s\MYname	{Patching putty}
   \s\MYnumber	{0000}
-  \s\MYtext	{A power crystal for running the teleporter.}
+  \s\MYtext	{Putty used to patch holes or occupy one’s hands}
+}
+
+\NEW{Item}{\iWires}{
+  \s\MYname	{Electrical Wires}
+  \s\MYnumber	{0000}
+  \s\MYtext	{A collection of electrical wires.}
+}
+
+\NEW{Item}{\iRope}{
+  \s\MYname	{Resistance Training Bands}
+  \s\MYnumber	{0000}
+  \s\MYtext	{Brightly colored resistance bands for strength training. Could be used to tie something down in a pinch. (OOC Note: These can be used as rope to restrain someone.)}
+}
+
+\NEW{Item}{\iRivets}{
+  \s\MYname	{A handful of rivets}
+  \s\MYnumber	{0000}
+  \s\MYtext	{A handful of rivets; typically used to repair kitchen equipment.}
+}
+
+\NEW{Item}{\iBook}{
+  \s\MYname	{A Book on Ship Repair}
+  \s\MYnumber	{0000}
+  \s\MYtext	{Having this book in your possession grants you the “engineering” ability for as long as you have the book with you. “Engineering” = You can repair parts of the ship, assuming you and any assistants have the listed necessary supplies. This activity takes 6 minutes, but having a second person helping (they do not need this ability) cuts the time in half (to 3 minutes). During this time, everyone helping must stay in that location, and may not engage in other activities (i.e.: reading other signs, engaging in combat, etc.) If either you or your assistant engage in another activity, the timer starts over. At the end of the time, consume the items that need to be consumed (The sign will tell you which ones), and switch signs (the signs will tell you which ones.)}
+}
+
+\NEW{Item}{\iSander}{
+  \s\MYname	{Electric Sander}
+  \s\MYnumber	{0000}
+  \s\MYtext	{An electric sander. It is nearly worn out.}
+}
+
+\NEW{Item}{\iPlate}{
+  \s\MYname	{Large Metal Plate}
+  \s\MYnumber	{0000}
+  \s\MYtext	{A large sheet of metal plating, used for various ship repairs.}
+  \s\\MYbulky	{2}
+}
+
+%% The Scanners
+\NEW{Item}{\iMedScan}{
+  \s\MYname	{Handheld Medical Scanner}
+  \s\MYnumber	{0000}
+  \s\MYtext	{A handheld medical scanner that can only be operated by a trained medical professional}
+}
+
+\NEW{Item}{\iSciScan}{
+  \s\MYname	{Handheld Science Scanner}
+  \s\MYnumber	{0000}
+  \s\MYtext	{A handheld science scanner that can only be operated by a trained science officer}
+}
+
+
+
+%%Transporter
+\NEW{Item}{\iCrystal}{
+  \s\MYname	{Teleporter Power Crystal}
+  \s\MYnumber	{0000}
+  \s\MYtext	{An inert green crystal. These are very rare, very expensive, and used to power the ship’s teleporter.}
   }
-	
+
+
+%%Items starting in inventory
 \NEW{Item}{\iKey}{
   \s\MYname	{Authorization Key}
   \s\MYnumber	{0000}
