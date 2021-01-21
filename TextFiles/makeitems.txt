@@ -10,4 +10,4 @@
 ?makeitem teleporter power crystal . 0 An inert green crystal. These are very rare, very expensive, and used to power the ship’s teleporter.
 ?makeitem a large metal plate . 2 A large sheet of metal plating, used for various ship repairs.
 ?makeitem a welding torch . 1 A welding torch. This item has a **5 minute cooldown** that begins when the task is completed before it can be used for a new task. (OOC Note: Players are responsible for keeping track of this cooldown and passing on that information if the item is handed off to someone else.)
-?makeitem Authorization Key . 0 An Authorization Key
+?makeitem Authorization Key . 0 An authorization key that allows for unorthodox use of ship's systems, such as point to point teleport within the ship.
