@@ -96,3 +96,6 @@
 ?assignmem Navigation . Half Way There
 ?assignmem Engineering . Half Way There
 ?assignmem Deck Hand . Half Way There
+?assignmem Engineering . Ship Repairs
+?assignmem Deck Hand . Ship Repairs
+
