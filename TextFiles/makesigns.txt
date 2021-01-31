@@ -16,6 +16,7 @@
 ?makesign false Storage Bay Navigation System Access: Repaired . Storage Bay . The navigation system has been repaired at this location.
 
 ?makesign true Front View Screen . Bridge . The front view screen which would normally display a simulation of local space around the ship is eerily black.
+?makesign true Navigator Station. Bridge. The station where the navigator usually sits to run a jump. Some form of coordinates should probably be entered at the 2 hour mark so the ship knows where to try to jump to get out of this mess. Someone will need to be present on the bridge, with a specific item with the word "Coordinates" in the name, to accomplish this. If you don't put any coordinates in, this may not go well at all.
 
 ?makesign true Broom Closet . Bridge . There is a small broom closet here. If your alpha score = 1, trigger your “Broom Closet” mem packet.
 ?makesign true A Lab Bench . Sci Lab . There is a neat lab bench here. If your alpha score = 1, trigger your “Lab Bench” mem packet.

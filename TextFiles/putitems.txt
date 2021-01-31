@@ -1,7 +1,7 @@
-?putitem 1 patching putty . Fidget Toy Bin
+?putitem 1 Patching Putty . Fidget Toy Bin
 ?putitem 1 handheld science scanner . A Rack of Scientific Equipment
 ?putitem 1 electrical wires . A Work Bench
-?putitem 1 insta-cast foam spray . A Medical Supply Cabinet
+?putitem 1 Insta-cast Foam Spray . A Medical Supply Cabinet
 ?putitem 1 handheld medical scanner . A Medical Equipment Cart
 ?putitem 3 resistance training bands . A Rack of Exercise Equipment
 ?putitem 1 a handful of rivets . A Box of Hardware
@@ -9,4 +9,10 @@
 ?putitem 1 electric sander . A Crafting Bench
 ?putitem 2 teleporter power crystal . A Crate For Teleporter Crystals
 ?putitem 3 a large metal plate . A Pile of Repair Materials
-?putitem 1 a welding torch . A Pile of Repair Tools
+?putitem 1 Welding Torch . A Pile of Repair Tools
+?putitem 1 Unusual Coordinates 1 . Packet 1
+?putitem 1 Unusual Coordinates 2 . Packet 1
+
+?putitem 1 Modified Walkie Talkie . Packet 2
+?putitem 1 Modified Receiver 2 . Packet 3
+?putitem 1 Modified Intercom Interface 2 . Packet 4

@@ -19,3 +19,9 @@
 ?makecontainer A Pile of Repair Materials . Storage Bay . 30 false A small pile of repair materials for the ship.
 ?makecontainer A Pile of Repair Tools . Storage Bay . 30 false A small pile of repair tools for the ship.
 ?makecontainer A Crate For Teleporter Crystals . Storage Bay . 30 false A small box for holding teleporter crystals. It is mostly empty.
+
+?makecontainer Packet 1 . Out of Game Mechanics . 5 false Packet 1 for Navigator.
+
+?makecontainer Packet 2 . Out of Game Mechanics . 5 false Packet 2 for Weapons.
+?makecontainer Packet 3 . Out of Game Mechanics . 5 false Packet 3 for Deck Hand.
+?makecontainer Packet 4 . Out of Game Mechanics . 5 false Packet 4 for Diplomat.
