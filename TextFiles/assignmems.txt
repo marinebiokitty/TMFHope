@@ -105,12 +105,11 @@
 ?assignmem Navigation . Crates
 ?assignmem Engineering . Crates
 ?assignmem Deck Hand . Crates
-?assignmem Captain . Half Way There
-?assignmem XO . Half Way There
-?assignmem Medical . Half Way There
-?assignmem Science . Half Way There
-?assignmem Weapons . Half Way There
-?assignmem Diplomat . Half Way There
-?assignmem Navigation . Half Way There
-?assignmem Engineering . Half Way There
-?assignmem Deck Hand . Half Way There
+
+?assignmem Captain . Captain Alpha
+?assignmem XO . XO Alpha
+?assignmem Weapons . Weapons Alpha
+?assignmem Diplomat . Diplomat Alpha
+?assignmem Navigation . Alpha
+?assignmem Engineering . Alpha
+?assignmem Deck Hand . Alpha
