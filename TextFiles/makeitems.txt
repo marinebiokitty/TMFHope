@@ -18,4 +18,4 @@
 ?makeitem Regular Walkie Talkie 2 . 0 A regular walkie talkie.
 ?makeitem Modified Walkie Talkie 2 . 0 A modified walkie talkie.
 ?makeitem Modified Receiver 2 . 0 A modified reciever to work with a modified walkie talkie.
-?makeitem Modified Intercom Interface 2 . 0 A modified intercom interface that should restore some form of room to room communication on the TMF Hope once installed.
+?makeitem Modified Intercom Interface 2 . 0 A modified intercom interface that should help restore some form of room to room communication on the TMF Hope once installed.

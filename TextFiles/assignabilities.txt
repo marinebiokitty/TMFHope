@@ -1,17 +1,15 @@
 ?assignability Science . Engineering
 ?assignability Deck Hand . Engineering
 ?assignability Engineering . Engineering
-?assignability Science . Investigation
-?assignability Medical . Investigation
 ?assignability Diplomat . First Aid
 ?assignability Weapons . First Aid
 ?assignability Medical . First Aid
 ?assignability Diplomat . Negotiate
 ?assignability Deck Hand . Negotiate
 ?assignability Captain . Truth Telling
-?assignability Captain . Calculate Trajectory
-?assignability XO . Calculate Trajectory
-?assignability Navigation . Calculate Trajectory
+?assignability Captain . Teleporter Technician
+?assignability XO . Teleporter Technician
+?assignability Navigation . Teleporter Technician
 ?assignability Weapons . Threat Assessment
 ?assignability XO . Threat Assessment
 ?assignability Engineering . Poor Eyesight

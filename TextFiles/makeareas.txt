@@ -5,3 +5,4 @@
 ?makearea gym-green Gym
 ?makearea rec-room-red Rec Room
 ?makearea storage-bay-black Storage Bay
+?makearea mechanics-only Out of Game Mechanics

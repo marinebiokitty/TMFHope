@@ -8,6 +8,7 @@
 ?makecontainer Medical Lab Teleporter Control Console . Med Bay . 30 false If you have the “Engineering” or “Teleporter Technician” ability, you may install a teleporter power crystal” to this console. You can drop a power crystal into this console to “install” it. The crystals can be removed without being used via a search of the console. As long as a power crystal is installed, AND you have an an “authorization key” in your possession AND you are in this location, AND The person you wish to transport is in this location, with the message: “I activate the transporter to move <insert name of another character who is currently in the same dimension with you> from <the **Magneta Dimension**> to <a **different primary dimension**>.” A GM will then complete the mechanic. **You cannot transport yourself to a new primary dimension, only other people.**
 ?makecontainer A Medical Supply Cabinet . Med Bay . 30 false Medical supplies are stored in here.
 ?makecontainer A Medical Equipment Cart . Med Bay . 30 false A rack of medical equipment.
+?makecontainer Ships Intercom . Med Bay . 30 false An access panel to the ship's intercom system. It may be possible to modify this to restore some ship-wide communication.
 
 ?makecontainer A Box of Hardware . Cafeteria . 30 false A box of miscellaneous hardware for fixing cooking equipment.
 
