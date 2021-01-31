@@ -96,5 +96,9 @@
 ?assignmem Navigation . Half Way There
 ?assignmem Engineering . Half Way There
 ?assignmem Deck Hand . Half Way There
+
 ?assignmem Engineering . Ship Repairs
-?assignmem Deck Hand . Ship Repairs
+?assignmem Deck Hand . Code 1433
+?assignmem Engineering . Code 1825
+?assignmem Deck Hand . Code 9997
+?assignmem Engineering . Code 9990
