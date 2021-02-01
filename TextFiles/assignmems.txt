@@ -113,3 +113,13 @@
 ?assignmem Navigation . Alpha
 ?assignmem Engineering . Alpha
 ?assignmem Deck Hand . Alpha
+
+?assignmem Captain . Practice
+?assignmem XO . Practice
+?assignmem Medical . Practice
+?assignmem Science . Practice
+?assignmem Weapons . Practice
+?assignmem Diplomat . Practice
+?assignmem Navigation . Practice
+?assignmem Engineering . Practice
+?assignmem Deck Hand . Practice
