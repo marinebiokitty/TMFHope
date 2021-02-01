@@ -4,6 +4,7 @@
 ?assignmem Medical . Medical Page 4
 ?assignmem Medical . Medical Page 5
 ?assignmem Medical . Medical Page 6
+?assignmem Medical . Medical Page 7
 
 ?assignmem Science . Science Officer Research Notebook Page 1
 ?assignmem Science . Science Page 2
@@ -11,6 +12,7 @@
 ?assignmem Science . Science Page 4
 ?assignmem Science . Science Page 5
 ?assignmem Science . Science Page 6
+?assignmem Science . Science Page 7
 
 ?assignmem Navigation . Navigation Officer Research Notebook Page 1
 ?assignmem Navigation . Navigation Page 2
@@ -33,6 +35,8 @@
 ?assignmem Diplomat . Diplomat 3
 ?assignmem Weapons . Weapons 1
 ?assignmem Weapons . Weapons 3
+?assignmem Weapons . Captain 1
+?assignmem Weapons . Captain 2
 
 ?assignmem Weapons . Threat Assessment 1
 ?assignmem Weapons . Threat Assessment 2
