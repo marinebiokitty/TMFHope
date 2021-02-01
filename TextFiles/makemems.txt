@@ -55,4 +55,4 @@
 ?makemem Weapons Alpha . Open 60 minutes after game start. . Set your Alpha score to 1.
 ?makemem Alpha . Open 70 minutes after game start. . Set your Alpha score to 1.
 
-
+?makemem Practice . Open when the Playground instructions tell you to. . You openend a mem-packet. Yay! Remember, the bot sends mem-packet messages to your Direct Messages.
