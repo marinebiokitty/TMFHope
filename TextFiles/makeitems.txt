@@ -1,9 +1,9 @@
 ?makeitem patching putty . 0 Putty used to patch holes or occupy one’s hands.
-?makeitem insta-cast foam spray . 0 A material that forms a hard, cast-like material on spray contact.
+?makeitem insta-cast foam spray . 0 A material that forms a hard, cast-like material on contact when sprayed.
 ?makeitem handheld medical scanner . 0 A handheld medical scanner that can only be operated by a trained medical professional.
 ?makeitem handheld science scanner . 0 A handheld science scanner that can only be operated by a trained science officer.
 ?makeitem electrical wires . 0 A collection of electrical wires.
-?makeitem resistance training bands . 1 Brightly colored resistance bands for strength training. Could be used to tie something down in a pinch. (OOC Note: These can be used as rope to restrain someone.)
+?makeitem resistance training bands . 1 Brightly colored resistance bands for strength training. Could be used to tie something down in a pinch -- or even someone. (OOC Note: These can be used as rope to restrain someone.)
 ?makeitem a handful of rivets . 0 A handful of rivets; typically used to repair kitchen equipment.
 ?makeitem a book on ship repair . 0 Having this book in your possession grants you the “engineering” ability for as long as you have the book with you. “Engineering” = You can repair parts of the ship, assuming you and any assistants have the listed necessary supplies. This activity takes 6 minutes, but having a second person helping (they do not need this ability) cuts the time in half (to 3 minutes). During this time, everyone helping must stay in that location, and may not engage in other activities (i.e.: reading other signs, engaging in combat, etc.) If either you or your assistant engage in another activity, the timer starts over. At the end of the time, consume the items that need to be consumed (The sign will tell you which ones), and switch signs (the signs will tell you which ones.)
 ?makeitem electric sander . 0 An electric sander. It is nearly worn out.
@@ -17,5 +17,5 @@
 
 ?makeitem Regular Walkie Talkie 2 . 0 A regular walkie talkie.
 ?makeitem Modified Walkie Talkie 2 . 0 A modified walkie talkie.
-?makeitem Modified Receiver 2 . 0 A modified reciever to work with a modified walkie talkie.
+?makeitem Modified Receiver 2 . 0 A modified receiver to work with a modified walkie talkie.
 ?makeitem Modified Intercom Interface 2 . 0 A modified intercom interface that should help restore some form of room to room communication on the TMF Hope once installed.
