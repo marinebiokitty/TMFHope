@@ -22,7 +22,7 @@
 ?assignmem Engineering . Code 1825
 ?assignmem Deck Hand . Code 9997
 ?assignmem Engineering . Code 9990
-?assignmem Deck Hand. Deck Hand 1
+?assignmem Deck Hand . Deck Hand 1
 ?assignmem Diplomat . Diplomat 2
 ?assignmem Engineering. Engineer 1
 ?assignmem Weapons . Weapons 2
