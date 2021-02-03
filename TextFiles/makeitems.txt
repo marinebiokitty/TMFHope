@@ -11,10 +11,8 @@
 ?makeitem a large metal plate . 0 A large sheet of metal plating, used for various ship repairs.
 ?makeitem a welding torch . 0 A welding torch. This item has a **5 minute cooldown** that begins when the task is completed before it can be used for a new task. (OOC Note: Players are responsible for keeping track of this cooldown and passing on that information if the item is handed off to someone else.)
 ?makeitem Authorization Key . 0 An authorization key that allows for unorthodox use of ship's systems, such as point to point teleport within the ship.
-
 ?makeitem Unusual Coordinates 1 . 0 A set of unusual jump coordinates.
 ?makeitem Unusual Coordinates 2 . 0 A set of unusual jump coordinates.
-
 ?makeitem Regular Walkie Talkie 2 . 0 A regular walkie talkie.
 ?makeitem Modified Walkie Talkie 2 . 0 A modified walkie talkie.
 ?makeitem Modified Receiver 2 . 0 A modified receiver to work with a modified walkie talkie.

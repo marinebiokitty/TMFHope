@@ -5,7 +5,6 @@
 ?assignmem Medical . Medical Page 5
 ?assignmem Medical . Medical Page 6
 ?assignmem Medical . Medical Page 7
-
 ?assignmem Science . Science Officer Research Notebook Page 1
 ?assignmem Science . Science Page 2
 ?assignmem Science . Science Page 3
@@ -13,31 +12,26 @@
 ?assignmem Science . Science Page 5
 ?assignmem Science . Science Page 6
 ?assignmem Science . Science Page 7
-
 ?assignmem Navigation . Navigation Officer Research Notebook Page 1
 ?assignmem Navigation . Navigation Page 2
 ?assignmem Navigation . Navigation Page 3
 ?assignmem Navigation . Navigation Page 4
 ?assignmem Navigation . Navigation Page 5
-
 ?assignmem Engineering . Ship Repairs
 ?assignmem Deck Hand . Code 1433
 ?assignmem Engineering . Code 1825
 ?assignmem Deck Hand . Code 9997
 ?assignmem Engineering . Code 9990
-
 ?assignmem Deck Hand. Deck Hand 1
 ?assignmem Diplomat . Diplomat 2
 ?assignmem Engineering. Engineer 1
 ?assignmem Weapons . Weapons 2
-
 ?assignmem Diplomat . Diplomat 1
 ?assignmem Diplomat . Diplomat 3
 ?assignmem Weapons . Weapons 1
 ?assignmem Weapons . Weapons 3
 ?assignmem Weapons . Captain 1
 ?assignmem Weapons . Captain 2
-
 ?assignmem Weapons . Threat Assessment 1
 ?assignmem Weapons . Threat Assessment 2
 ?assignmem Weapons . Threat Assessment 3
@@ -109,7 +103,6 @@
 ?assignmem Navigation . Crates
 ?assignmem Engineering . Crates
 ?assignmem Deck Hand . Crates
-
 ?assignmem Captain . Captain Alpha
 ?assignmem XO . XO Alpha
 ?assignmem Weapons . Weapons Alpha
@@ -117,7 +110,6 @@
 ?assignmem Navigation . Alpha
 ?assignmem Engineering . Alpha
 ?assignmem Deck Hand . Alpha
-
 ?assignmem Captain . Practice
 ?assignmem XO . Practice
 ?assignmem Medical . Practice
