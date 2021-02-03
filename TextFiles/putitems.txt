@@ -13,5 +13,5 @@
 ?putitem 1 Unusual Coordinates 1 . Packet 1
 ?putitem 1 Unusual Coordinates 2 . Packet 1
 ?putitem 1 Modified Walkie Talkie . Packet 2
-?putitem 1 Modified Receiver 2 . Packet 3
-?putitem 1 Modified Intercom Interface 2 . Packet 4
+?putitem 1 Modified Receiver . Packet 3
+?putitem 1 Modified Intercom Interface . Packet 4

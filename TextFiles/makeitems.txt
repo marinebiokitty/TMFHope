@@ -1,5 +1,5 @@
-?makeitem patching putty . 0 Putty used to patch holes or occupy one’s hands.
-?makeitem insta-cast foam spray . 0 A material that forms a hard, cast-like material on contact when sprayed.
+?makeitem Patching Putty . 0 Putty used to patch holes or occupy one’s hands.
+?makeitem Insta-cast Foam Spray . 0 A material that forms a hard, cast-like material on contact when sprayed.
 ?makeitem handheld medical scanner . 0 A handheld medical scanner that can only be operated by a trained medical professional.
 ?makeitem handheld science scanner . 0 A handheld science scanner that can only be operated by a trained science officer.
 ?makeitem electrical wires . 0 A collection of electrical wires.
@@ -9,11 +9,11 @@
 ?makeitem electric sander . 0 An electric sander. It is nearly worn out.
 ?makeitem teleporter power crystal . 0 An inert green crystal. These are very rare, very expensive, and used to power the ship’s teleporter.
 ?makeitem a large metal plate . 0 A large sheet of metal plating, used for various ship repairs.
-?makeitem a welding torch . 0 A welding torch. This item has a **5 minute cooldown** that begins when the task is completed before it can be used for a new task. (OOC Note: Players are responsible for keeping track of this cooldown and passing on that information if the item is handed off to someone else.)
+?makeitem Welding Torch . 0 A welding torch. This item has a **5 minute cooldown** that begins when the task is completed before it can be used for a new task. (OOC Note: Players are responsible for keeping track of this cooldown and passing on that information if the item is handed off to someone else.)
 ?makeitem Authorization Key . 0 An authorization key that allows for unorthodox use of ship's systems, such as point to point teleport within the ship.
 ?makeitem Unusual Coordinates 1 . 0 A set of unusual jump coordinates.
 ?makeitem Unusual Coordinates 2 . 0 A set of unusual jump coordinates.
-?makeitem Regular Walkie Talkie 2 . 0 A regular walkie talkie.
-?makeitem Modified Walkie Talkie 2 . 0 A modified walkie talkie.
-?makeitem Modified Receiver 2 . 0 A modified receiver to work with a modified walkie talkie.
-?makeitem Modified Intercom Interface 2 . 0 A modified intercom interface that should help restore some form of room to room communication on the TMF Hope once installed.
+?makeitem Regular Walkie Talkie . 0 A regular walkie talkie.
+?makeitem Modified Walkie Talkie . 0 A modified walkie talkie.
+?makeitem Modified Receiver . 0 A modified receiver to work with a modified walkie talkie.
+?makeitem Modified Intercom Interface . 0 A modified intercom interface that should help restore some form of room to room communication on the TMF Hope once installed.
