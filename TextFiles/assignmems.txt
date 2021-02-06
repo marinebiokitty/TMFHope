@@ -24,7 +24,7 @@
 ?assignmem Engineering . Code 9990
 ?assignmem Deck Hand . Deck Hand 1
 ?assignmem Diplomat . Diplomat 2
-?assignmem Engineering. Engineer 1
+?assignmem Engineering . Engineer 1
 ?assignmem Weapons . Weapons 2
 ?assignmem Diplomat . Diplomat 1
 ?assignmem Diplomat . Diplomat 3
