@@ -107,9 +107,6 @@
 ?assignmem XO . XO Alpha
 ?assignmem Weapons . Weapons Alpha
 ?assignmem Diplomat . Diplomat Alpha
-?assignmem Navigation . Alpha
-?assignmem Engineering . Alpha
-?assignmem Deck Hand . Alpha
 ?assignmem Captain . Practice
 ?assignmem XO . Practice
 ?assignmem Medical . Practice
@@ -119,6 +116,6 @@
 ?assignmem Navigation . Practice
 ?assignmem Engineering . Practice
 ?assignmem Deck Hand . Practice
-?assignmem Engineering. Engineering Alpha
+?assignmem Engineering . Engineering Alpha
 ?assignmem Navigation . Navigation Alpha
 ?assignmem Deck Hand . Deck Hand Alpha

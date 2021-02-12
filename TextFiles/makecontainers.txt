@@ -6,7 +6,7 @@
 ?makecontainer Medical Lab Teleporter Control Console . Med Bay . 30 false **Teleporters will automatically shut down in the last 5 minutes before the ship attempts to jump out of this mess (last 5 minutes of game).** If you have the “Engineering” or “Teleporter Technician” ability, you may install or uninstall a"Teleporter Power Crystal" in this console. (To install it, drop the "Teleporter Power Crystal" in this container.  To uninstall it, remove it by searching this console.) If a power crystal is installed AND you have an an “authorization key” in your possession, you may do the following in the “med-bay-magenta” text channel: @ the GM role, with the message: “I activate the transporter to move <insert name of another character who is *currently in the medical lab*> from here to <*a different location on the ship>.” A GM will then complete the mechanic by messaging the person being teleported in their character’s private channel. If you attempt to move someone to an invalid location, the GM will reject the attempt and you will have to try again. **You cannot transport yourself to a different area of the ship, only other people.**
 ?makecontainer A Medical Supply Cabinet . Med Bay . 30 false Medical supplies are stored in here.
 ?makecontainer A Medical Equipment Cart . Med Bay . 30 false A rack of medical equipment.
-?makecontainer Ships Intercom . Science Lab . 30 false An access panel to the ship's intercom system. It may be possible to modify this to restore some ship-wide communication.
+?makecontainer Ships Intercom . Sci Lab . 30 false An access panel to the ship's intercom system. It may be possible to modify this to restore some ship-wide communication.
 ?makecontainer A Box of Hardware . Cafeteria . 30 false A box of miscellaneous hardware for fixing cooking equipment.
 ?makecontainer A Rack of Exercise Equipment . Gym . 30 false A rack of various weights and other exercise equipment.
 ?makecontainer The Ship's Lending Library . Rec Room . 30 false A modest lending library of physical books.
@@ -18,5 +18,5 @@
 ?makecontainer Packet 2 . Out of Game Mechanics . 5 false Packet 2 for Weapons.
 ?makecontainer Packet 3 . Out of Game Mechanics . 5 false Packet 3 for Deck Hand.
 ?makecontainer Packet 4 . Out of Game Mechanics . 5 false Packet 4 for Diplomat.
-?makecontainer Packet 5. Out of Game Mechanics . 5 false Packet 5 for Engineering.
+?makecontainer Packet 5 . Out of Game Mechanics . 5 false Packet 5 for Engineering.
 ?makecontainer Box . Playground . 10 false A mysterious box!

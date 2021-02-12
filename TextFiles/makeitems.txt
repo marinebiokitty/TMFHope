@@ -18,4 +18,4 @@
 ?makeitem Modified Receiver . 0 A modified receiver to work with a modified walkie talkie.
 ?makeitem Modified Intercom Interface . 0 A modified intercom interface that should help restore some form of room to room communication on the TMF Hope once installed.
 ?makeitem Blob . 0 A random blob.
-?makeitem Ships Log. 0 A copy of the ships log, showing several unauthorized accesses made to the engines and the ships Navigation system by crew code "9997" over the last week. Unauthorized modifications to these systems were made with each access, and correspond directly to the parts of the ship that were damaged in the jump. A handwritten note on the side reads "code 9990 = shipyard. Code 9997 = 7th by chain of command."
+?makeitem Ships Log . 0 A copy of the ships log, showing several unauthorized accesses made to the engines and the ships Navigation system by crew code "9997" over the last week. Unauthorized modifications to these systems were made with each access, and correspond directly to the parts of the ship that were damaged in the jump. A handwritten note on the side reads "code 9990 = shipyard. Code 9997 = 7th by chain of command."
