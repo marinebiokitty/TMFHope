@@ -6,3 +6,4 @@
 ?makearea rec-room-red Rec Room
 ?makearea storage-bay-black Storage Bay
 ?makearea mechanics-only Out of Game Mechanics
+?makearea playground Playground

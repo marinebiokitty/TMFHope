@@ -7,3 +7,4 @@
 ?makeinventory Navigation
 ?makeinventory Engineering
 ?makeinventory Deck Hand
+?makeinventory NPC1

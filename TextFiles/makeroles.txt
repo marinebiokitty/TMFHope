@@ -7,3 +7,4 @@
 ?makerole Navigation
 ?makerole Engineering
 ?makerole Deck Hand
+?makerole NPC1

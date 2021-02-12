@@ -13,3 +13,4 @@
 ?assignability Weapons . Threat Assessment
 ?assignability XO . Threat Assessment
 ?assignability Engineering . Poor Eyesight
+?assignability Navigation . Investigate
