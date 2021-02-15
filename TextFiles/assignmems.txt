@@ -30,8 +30,8 @@
 ?assignmem Diplomat . Diplomat 3
 ?assignmem Weapons . Weapons 1
 ?assignmem Weapons . Weapons 3
-?assignmem Weapons . Captain 1
-?assignmem Weapons . Captain 2
+?assignmem Captain . Captain 1
+?assignmem Captain . Captain 2
 ?assignmem Weapons . Threat Assessment 1
 ?assignmem Weapons . Threat Assessment 2
 ?assignmem Weapons . Threat Assessment 3
