@@ -65,7 +65,7 @@
 %% as the \MYhp field, that defaults to 5.
 \PRESETS{Char}{
   \FD\MYdesc	{} %% badge description
-  \newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
+  %\newstat\MYcr	{Combat Rating}{CR}{2} %% for DarkWater-style combat
 	\newstat\MYalpha {Alpha}{Alpha}{0}
 	%\newstat\MYhp	{Hitpoints}{HP}{10} % Hitpoints
 
@@ -203,42 +203,42 @@
   \s\MYwhites	{\wTest{}}
   \s\MYcash	{\cash{Dollar}{261}}
   
-  \s\MYcr{2}
+  %\s\MYcr{2}
 }
 
 %%%%%%%PCs%%%%%%%%%%%%%%%%%%%%%
 
 \NEW{PC}{\cCap}{
-  \s\MYname	{Fiona Calloway}
+  \s\MYname	{TBD}
   \s\MYfile	{Captain.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Captain}
-  \s\MYsex	{\female}
-  \s\MYplayer	{Kristen Patten}
+  \s\MYsex	{\male}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-  \s\MYabils	{\aCalculate{}\aTruth{}}
+  \s\MYabils	{\aTruth{}\aPractice{}} %\aCalculate{}
   \s\MYitems	{\iKey{}}
-  \s\MYmems {\mPractice{}\mCAlpha{}\mCaptainOne{}\mCaptainTwo{}
+  \s\MYmems {\mPractice{}\mCAlpha{}\mCaptainOne{}\mCaptainTwo{}\mCClosure{}
   \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{} 
   }
   
   \s\MYalpha {0}
-  \s\MYcr{2}
+  %\s\MYcr{2}
 }
 
 \NEW{PC}{\cXO}{
-  \s\MYname	{Alistair McKeon}
+  \s\MYname	{}
   \s\MYfile	{XO.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Executive Officer}
   \s\MYsex	{\nonbinary}
-  \s\MYplayer	{Sarah Judd}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-  \s\MYabils	{\aCalculate{}\aThreat{}}
+  \s\MYabils	{\aThreat{}\aPractice{}} %\aCalculate{}
   \s\MYitems	{\iKey{}}
    \s\MYmems {\mPractice{}\mXAlpha{}
     \mThreatOne{}\mThreatTwo{}\mThreatThree{}\mThreatFour{}
@@ -246,129 +246,130 @@
      }
   
   \s\MYalpha{0}
-  \s\MYcr{2}
+  %\s\MYcr{2}
 }
 
 \NEW{PC}{\cMed}{
-  \s\MYname	{Brenda Alwin} %Bernard
+  \s\MYname	{}
   \s\MYfile	{Medical.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Medical Officer}
-  \s\MYsex	{\female}
-  \s\MYplayer	{Rebecca Roycroft}
+  \s\MYsex	{\male}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-   \s\MYabils	{\aFirstAid{}}
+   \s\MYabils	{\aPractice{}\aFirstAid{}}
    \s\MYmems {\mPractice{}
    \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}
    \mMedOne{}\mMedTwo{}\mMedThree{}\mMedFour{}\mMedFive{}\mMedSix{}\mMedSeven{}  }
  
-  \s\MYcr{1}
+  %\s\MYcr{1}
 }
 
 \NEW{PC}{\cSci}{
-  \s\MYname	{Patricia Holmes} %P.J.
+  \s\MYname	{}
   \s\MYfile	{Science.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Science Officer}
   \s\MYsex	{\female}
-  \s\MYplayer	{Theresa Sullivan}
+  \s\MYplayer	{}
   
    \s\MYblues	{\bHistory{}\bHope{}}
    \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-   \s\MYabils	{\aEngineering{}}
+   \s\MYabils	{\aEngineering{}\aPractice{}}
    \s\MYmems {\mPractice{}
    \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}
    \mSciOne{}\mSciTwo{}\mSciThree{}\mSciFour{}\mSciFive{}\mSciSix{}\mSciSeven{}  }
    
-  \s\MYcr{1}
+  %\s\MYcr{2}
 }
 
 \NEW{PC}{\cDip}{
-  \s\MYname	{Trevor Richards} %Tara
+  \s\MYname	{}
   \s\MYfile	{Diplomat.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Diplomat}
   \s\MYsex	{\male}
-  \s\MYplayer	{Jeremy Cole}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-   \s\MYabils	{\aNegotiation{}\aFirstAid{}}
+   \s\MYabils	{\aNegotiation{}\aPractice{}\aFirstAid{}}
    \s\MYmems {\mPractice{}\mDAlpha{} \mDiplomatOne{}\mDiplomatTwo{}\mDiplomatThree{}
    \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}}
   
-  \s\MYcr{1}
+  %\s\MYcr{1}
 }
 
 \NEW{PC}{\cWeap}{
-  \s\MYname	{Christopher Garron}
+  \s\MYname	{}
   \s\MYfile	{Weapons.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Weapons Officer}
   \s\MYsex	{\male}
-  \s\MYplayer	{Zev Trubowitch}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-   \s\MYabils	{\aThreat{}\aFirstAid{}}
-   \s\MYmems {\mPractice{}\mWAlpha{} \mWeaponsOne{}\mWeaponsTwo{}\mWeaponsThree{}
+   \s\MYabils	{\aThreat{}\aPractice{}\aDefense{}\aFirstAid{}}
+   \s\MYmems {\mPractice{}\mWAlpha{} \mWeaponsOne{}\mWeaponsTwo{}\mWeaponsThree{}\mWClosure{}
    \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}}
 	\s\MYitems	{\iWT{}}
   
-  \s\MYcr{3}
+  %\s\MYcr{3}
 }
 
 \NEW{PC}{\cEng}{
-  \s\MYname	{Samantha Jones} %Sam
+  \s\MYname	{}
   \s\MYfile	{Engineering.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Engineer}
-  \s\MYsex	{\female}
-  \s\MYplayer	{Susan S}
+  \s\MYsex	{\male}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-  \s\MYabils	{\aEngineering{}\aEyesight{}}
-  \s\MYmems {\mPractice{}\mAlpha{}\mEngineerOne{} \mRepairsOne{}\mRepairsThree{}\mRepairsFive{}
+  \s\MYabils	{\aEngineering{}\aEyesight{}\aPractice{}}
+  \s\MYmems {\mPractice{}\mEAlpha{}\mEngineerOne{} \mRepairsOne{}\mRepairsThree{}\mRepairsFive{}
   \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}
     }
   
-  \s\MYcr{1}
+  %\s\MYcr{1}
 }
 
 \NEW{PC}{\cNav}{
-  \s\MYname	{Jackie O'Brien} %Jacob
+  \s\MYname	{}
   \s\MYfile	{Navigation.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{The Navigator}
   \s\MYsex	{\female}
-  \s\MYplayer	{Stephanie McKeown}
+  \s\MYplayer	{}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
-   \s\MYabils	{\aCalculate{}\aInvestigate{}}
-   \s\MYmems {\mPractice{}\mAlpha{} \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}
+   \s\MYabils	{\aInvestigate{}\aPractice{}} %\aCalculate{}
+   \s\MYmems {\mPractice{}\mNAlpha{} \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}
    \mNavOne{}\mNavTwo{}\mNavThree{}\mNavFour{}\mNavFive{} }
   
-  \s\MYcr{1}
+  %\s\MYcr{1}
 }
 
 \NEW{PC}{\cBoy}{
-  \s\MYname	{Andrew Than}%Annamarie
+  \s\MYname	{}
   \s\MYfile	{CabinBoy.tex}
   \s\MYnumber	{00000}
   \s\MYdesc	{A new deck hand}
-  \s\MYsex	{\male}
-  \s\MYplayer	{Nat Budin}
-   \s\MYabils	{\aEngineering{}\aNegotiation{}}
-   \s\MYmems {\mPractice{}\mAlpha{}\mDeckHandOne{}  \mRepairsTwo{}\mRepairsFour{} \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}}
+  \s\MYsex	{\nonbinary}
+  \s\MYplayer	{}
+	
+   \s\MYabils	{\aEngineering{}\aNegotiation{}\aPractice{}}
+   \s\MYmems {\mPractice{}\mDHAlpha{}\mDeckHandOne{}  \mRepairsTwo{}\mRepairsFour{} \mBroom{}\mLab{}\mPatient{}\mKitchen{}\mWeight{}\mTheater{}\mCrates{}}
   
   \s\MYblues	{\bHistory{}\bHope{}}
   \s\MYgreens	{\gFixTheShip{}\gDiscord{}}
   
-  \s\MYcr{1}
+  %\s\MYcr{1}
 }
 
 %%%%%%%NPCs%%%%%%%%%%%%%%%%%%%%
