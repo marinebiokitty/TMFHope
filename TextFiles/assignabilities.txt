@@ -14,7 +14,7 @@
 ?assignability Weapons . Defensive Stance
 ?assignability Captain . Practice
 ?assignability XO . Practice
-?assignability Medica l. Practice
+?assignability Medical . Practice
 ?assignability Science . Practice
 ?assignability Weapons . Practice
 ?assignability Diplomat . Practice
