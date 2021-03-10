@@ -7,10 +7,17 @@
 ?assignability Diplomat . Negotiate
 ?assignability Deck Hand . Negotiate
 ?assignability Captain . Truth Telling
-?assignability Captain . Teleporter Technician
-?assignability XO . Teleporter Technician
-?assignability Navigation . Teleporter Technician
 ?assignability Weapons . Threat Assessment
 ?assignability XO . Threat Assessment
 ?assignability Engineering . Poor Eyesight
 ?assignability Navigation . Investigate
+?assignability Weapons . Defensive Stance
+?assignability Captain . Practice
+?assignability XO . Practice
+?assignability Medica l. Practice
+?assignability Science . Practice
+?assignability Weapons . Practice
+?assignability Diplomat . Practice
+?assignability Navigation . Practice
+?assignability Engineering . Practice
+?assignability Deck Hand . Practice

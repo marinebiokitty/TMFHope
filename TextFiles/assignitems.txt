@@ -1,3 +1,4 @@
 ?assignitem Captain . 1 Authorization Key
 ?assignitem XO . 1 Authorization Key
 ?assignitem Weapons . 1 Regular Walkie Talkie
+?assignitem Medical . 1 Voice Recorder

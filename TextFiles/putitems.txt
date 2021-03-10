@@ -7,7 +7,7 @@
 ?putitem 1 Handful of Rivets . A Box of Hardware
 ?putitem 1 Book of Ship Repair . The Ship's Lending Library
 ?putitem 1 Electric Sander . A Crafting Bench
-?putitem 2 Teleporter Power Crystal . A Crate For Teleporter Crystals
+?putitem 4 Teleporter Power Crystal . A Crate For Teleporter Crystals
 ?putitem 3 Large Metal Plate . A Pile of Repair Materials
 ?putitem 1 Welding Torch . A Pile of Repair Tools
 ?putitem 1 Unusual Coordinates 1 . Packet 1
