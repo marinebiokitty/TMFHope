@@ -121,3 +121,4 @@
 ?assignmem Deck Hand . Deck Hand Alpha
 ?assignmem Weapons . Weapons Closure
 ?assignmem Captain . Captain Closure
+?assignmem Engineering . Ships Log
