@@ -334,8 +334,14 @@
 
 \NEW{MemFold}{\mRepairsFive}{
   \s\MYname	{Code 9990| Trigger: Open if someone or something tells you ``error code 9990''.}
-  \s\MYtext	{Error code 9990 is a shipyard code. You knew that kid was good for something. They have reminded you that error codes starting with 999 are crew access codes. They proceed in decreasing order down the chain of command. Indexing starts with 9991 for the Captain. This means that the Navigations Officer is code 9997, and they were the ones was accessing the engines when they were sabotaged! You knew it all along! This is Navigation's fault. Better tell the Captain.  The Deck Hand will be so disappointed, though; they seemed to get along quite well.}
+  \s\MYtext	{Error code 9990 is a shipyard code. You knew that kid was good for something. They have reminded you that error codes starting with 999 are crew access codes. They proceed in decreasing order down the chain of command. Indexing starts with 9991 for the Captain. This means that the Navigations Officer is code 9997, and they were the ones was accessing the engines when they were sabotaged! You knew it all along! This is Navigation's fault. Better tell the Captain.  The Deck Hand will be so disappointed, though; they seemed to get along quite well. Open mem packet “Ships Log” now.}
 }
+
+\NEW{MemFold}{\mShipLog}{
+  \s\MYname	{Ships Log| Trigger: Open when another mem-packet tells you to do so.}
+  \s\MYtext	{Trigger when told to do so. Go to the ``mechanics-only'' channel, and use the searchcontainer command for ``Packet 5'' . Take the ``Ships Log'' item from the packet. In your private channel, use the ``listitem'' command to look at the item. This constitutes your proof of who did this, so be careful who you give it to!}
+}
+
 
 %%%%%%%%% Jury Rig the Intercom  %%%%%%%%%%
 \NEW{MemFold}{\mDeckHandOne}{
@@ -370,5 +376,5 @@
 
 \NEW{MemFold}{\mPractice}{
   \s\MYname	{Practice | Trigger: Open when the Playground instructions tell you to}
-  \s\MYtext	{You openend a mem-packet. Yay! Remember, the bot sends mem-packet messages to your Direct Messages.}
+  \s\MYtext	{You opened a mem-packet. Yay! Remember, the bot sends mem-packet messages to your Direct Messages.}
 }
