@@ -1,0 +1,91 @@
+%%%%%
+%%
+%% GameTeX will input the file run\gamerun-LIST.tex.  So if \gamerun
+%% is set to 1, run1-LIST.tex will be used, if 2, run2-LIST.tex, etc.
+%% The file is not required; if it does not exist, no error will
+%% occur.  run1-LIST.tex is likely unnecessary.
+%%
+%% You can use this file for run-dependent modifications (usually
+%% player information in Char datatypes).
+%%
+%% \updatemacro{<datatype macro>}{<new updates>}
+%% \updateplayer{<Char macro>}{<new player>}
+%% \updateplayeremail{<Char macro>}{<new player>}{<new email>}
+%%
+%% \updatemacro will extend the contents of a datatype macro.  Use \rs
+%% to change field values:
+%%
+%%   \updatemacro{\cTest}{
+%%     \rs\MYplayer	{New Player}
+%%     \rs\MYemail	{test@other.org}
+%%     \rs\MYaddress	{Dorm, rm 201}
+%%     \rs\MYphone	{x1-1111}
+%%     \rs\MYsex	{\female}
+%%     }
+%%
+%% \updateplayer is a shortcut for changing just the player name for a
+%% character:
+%%
+%%   \updateplayer{\cTest}{New Player}
+%%
+%% \updateplayeremail is a shortcut for changing just the player name
+%% and player email address for a character:
+%%
+%%   \updateplayeremail{\cTest}{New Player}{test@other.org}
+%%
+%%%%%
+
+
+\updatemacro{\cCap}{
+    \rs\MYname	{Fiona Calloway} %Finn %Fiona
+		\rs\MYplayer	{Kendra Beckler}
+    \rs\MYsex	{\female}
+}
+
+\updatemacro{\cXO}{
+    \rs\MYname	{Alistair McKeon}
+		\rs\MYplayer	{Tamasin Wohlers}
+    \rs\MYsex	{\nonbinary}
+}
+
+\updatemacro{\cDip}{
+    \rs\MYname	{Tara Richards} %Tara %Trevor
+		\rs\MYplayer	{Ray Hodson}
+    \rs\MYsex	{\female}
+}
+
+\updatemacro{\cMed}{
+    \rs\MYname	{Brenda Alwin} %Brenda %Bernard
+		\rs\MYplayer	{Emily Mahoney}
+    \rs\MYsex	{\female}
+}
+
+\updatemacro{\cEng}{
+    \rs\MYname	{Sam Jones} %Samantha %Sam
+		\rs\MYplayer	{Tyler Machado}
+    \rs\MYsex	{\male}
+}
+
+\updatemacro{\cWeap}{
+    \rs\MYname	{Christina Garron} %Christina % Christopher
+		\rs\MYplayer	{Faye Walsh}
+    \rs\MYsex	{\female}
+}
+
+\updatemacro{\cNav}{
+    \rs\MYname	{Jacob O'Brien} %Jacob %Jackie
+		\rs\MYplayer	{Eric Wirtanen}
+    \rs\MYsex	{\male}
+}
+
+\updatemacro{\cSci}{
+    \rs\MYname	{Patricia Holmes} %P.J. %Patricia
+		\rs\MYplayer	{Rebecca Maxfield}
+    \rs\MYsex	{\female}
+}
+
+\updatemacro{\cBoy}{
+    \rs\MYname	{Andy Than}%Annamarie %Andy
+		\rs\MYplayer	{Simon Clark}
+    \rs\MYsex	{\male}
+}
